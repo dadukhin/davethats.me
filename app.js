@@ -16,12 +16,22 @@ var globalViews = 0;
 //app.set('port', 80);
 //app.listen(app.get('port'));
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
+app.use(cookieParser());
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 http.createServer(function (req, res) {
   //res.writeHead(200, {'Content-Type': 'text/html'});
   //res.write('Hello World!');
+  console.log('--INSECURE REQUEST:');
   console.log('URL: ' + 'https:\/\/' + req.headers.host + req.url);
+  console.log(req.headers);
+  console.log(req.connection.remoteAddress);
+  console.log(JSON.stringify(req.cookies));
+  console.log(req.body);
+  console.log('--END INSECURE REQUEST');
   res.writeHead(302, {'Location':  'https:\/\/'+ req.headers.host + req.url});
   res.end();
 }).listen(80);
@@ -40,16 +50,13 @@ https.createServer({
 //app.set('view engine', 'jade');
 
 //app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
 //app.use('/', indexRouter);
 //app.use('/users', usersRouter);
 
 
 app.use(function(req, res) {
+  console.log('**SECURE REQUEST:');
+  console.log('URL: ' + 'https:\/\/' + req.headers.host + req.url);
   console.log(req.headers);
   console.log(req.ip);
   console.log(JSON.stringify(req.cookies));
@@ -61,7 +68,7 @@ app.use(function(req, res) {
     res.writeHead(302, {'Location':  'https:\/\/github.com/david-solodukhin'});
     res.end();
   }
-
+  console.log('** END SECURE REQUEST');
 });
 
 
