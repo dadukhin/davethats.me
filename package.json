@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "sudo kill -9 $(sudo lsof -t -i:80); node ./bin/www >> ./public/serve_log.txt"
+    "start": "sudo kill -9 $(sudo lsof -t -i:80); node ./bin/www >> ./public/serve_log.txt",
+    "deb": "sudo kill -9 $(sudo lsof -t -i:80); node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
