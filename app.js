@@ -19,7 +19,7 @@ var globalViews = 0;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
 
 
 http.createServer(function (req, res) {
@@ -51,23 +51,32 @@ function logRequest(req, secure) {
   if (blacklist(req)) {
     return;
   }
-
-
-  console.log(secure ? '**SECURE REQUEST' : '::INSECURE REQUEST:');
-  console.log('URL: ' + 'http(s):\/\/' + req.headers.host + req.url);
-  console.log((new Date()).toJSON().slice(0, 19).replace(/[-T]/g, ':'));
-  console.log(req.headers);
-  console.log(req.ip);
-  console.log(JSON.stringify(req.cookies));
-  console.log(JSON.stringify(req.body));
-
-
+  var logger;
   if (req.headers.host === 'github.davidthats.me') {
     globalViews++;
-    console.log('========= REQ #' + globalViews + '==========');
+    logger = fs.createWriteStream('public/gitlog.txt', {
+     flags: 'a'
+    });
+    logger.write('========= REQ #' + globalViews + '==========\n');
+  } else if (req.headers.url != '/') {
+    logger = fs.createWriteStream('public/oddlog.txt', {
+     flags: 'a'
+    });
+  } else {
+    logger = fs.createWriteStream('public/server_log.txt', {
+     flags: 'a'
+    });
   }
-  console.log(secure ? '**END SECURE REQUEST' : '::END INSECURE REQUEST');
+  logger.write(secure ? '**SECURE REQUEST:\n' : '::INSECURE REQUEST:\n');
+  logger.write('URL: ' + 'http(s):\/\/' + req.headers.host + req.url + "\n");
+  logger.write((new Date()).toJSON().slice(0, 19).replace(/[-T]/g, ':')+"\n");
+  logger.write(JSON.stringify(req.headers, null, 2) + "\n");
+  logger.write(req.ip + "\n");
+  logger.write(JSON.stringify(req.cookies) + "\n");
+  logger.write(JSON.stringify(req.body) + "\n");
 
+  logger.write(secure ? '**END SECURE REQUEST\n' : '::END INSECURE REQUEST\n');
+  logger.end();
 }
 function blacklist(req) {
  if (req.url.includes("favicon")) {
@@ -97,7 +106,9 @@ app.use(function(req, res) {
   //logRequest(req, true);
 });
 
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
+
+
 // catch 404 and forward to error handler
 //app.use(function(req, res, next) {
 //  next(createError(404));
