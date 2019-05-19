@@ -52,13 +52,14 @@ function logRequest(req, secure) {
     return;
   }
   var logger;
+  console.log(req.url);
   if (req.headers.host === 'github.davidthats.me') {
     globalViews++;
     logger = fs.createWriteStream('public/gitlog.txt', {
      flags: 'a'
     });
     logger.write('========= REQ #' + globalViews + '==========\n');
-  } else if (req.headers.url != '/') {
+  } else if (req.url !== "/") {
     logger = fs.createWriteStream('public/oddlog.txt', {
      flags: 'a'
     });
