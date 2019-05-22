@@ -15,3 +15,37 @@ URL: http(s)://github.davidthats.me/
 {}
 {}
 **END SECURE REQUEST
+========= REQ #1==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:21:10:45:30
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "BFBALQIW 425618093642415369 195045242508941865 559832417095678152 457923486572177177 239164380993281237 660784627417852366 13980548266986608 898171681240058511 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #2==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:21:10:45:30
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "8Y80YF6ZW 633911389754858011 531172004927035981 604695129603293709 695690980551594845 850702298679768474 840236872348999539 31464100303951166 593726952689637931 400246925442126204 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST

