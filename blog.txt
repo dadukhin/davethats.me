@@ -478,3 +478,33 @@ GET
 
 
 URL: http(s)://54.204.62.167/evox/about: hehe testing for hvac management console
+::INSECURE REQUEST:
+URL: http(s)://undefinedhttp://110.249.212.46/testget?q=23333&port=80
+2019:08:29:21:51:22
+GET
+{
+  "cache-control": "no-cache, no-store, must-revalidate",
+  "pragma": "no-cache",
+  "expires": "0"
+}
+::ffff:110.249.212.46
+
+http://110.249.212.46/testget?q=23333&port=80
+http output is 23331 only for q=23333
+
+::INSECURE REQUEST:
+URL: http(s)://112.124.42.80:63435http://112.124.42.80:63435/
+2019:08:27:02:12:45
+HEAD
+{
+  "accept-encoding": "gzip",
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36",
+  "bs_real_ip": "TmpBdU1Ua3hMalV5TGpJMU5Dd3hNVEl1TVRjdU1USTFMakU0TUE9PQ==",
+  "host": "112.124.42.80:63435",
+  "accept": "text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2",
+  "proxy-connection": "keep-alive"
+}
+::ffff:60.191.52.254
+
+bs_real_ip->60.191.52.254,112.17.125.180
+
